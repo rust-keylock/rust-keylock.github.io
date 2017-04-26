@@ -17,9 +17,6 @@
 <meta name="generator" content="Hugo 0.17-DEV" />
 
 
-  <link href="#ZgotmplZ" rel="alternate" type="application/rss+xml" title="rust-keylock" />
-  <link href="#ZgotmplZ" rel="feed" type="application/rss+xml" title="rust-keylock" />
-
 
 
 
@@ -43,52 +40,80 @@
 <div class="container">
 
 
-<header class="row text-center header">
-   <img src="img/rust-keylock.png" alt="Author Image" class="img-circle text-center headshot"> 
-  <h1 class="author">rust-keylock</h1>
+<header class="row text-left title">
+  <h1 class="title">About</h1>
 </header>
-
-
-<section id="info-pane" class="row text-center info">
+<section id="category-pane" class="row meta">
   
-  <h3 class="intro">A password manager that is intended to be</h3>
-  
-  
-  <h4 class="description"><strong>Secure</strong></p>
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    
 
-<p><strong>Simple to use</strong></p>
+<p><strong><em>rust-keylock</em></strong> is a password manager and its goals are to be:</p>
 
-<p><strong>Portable</strong></p>
+<ul>
+<li>Secure</li>
+<li>Simple to use</li>
+<li>Portable</li>
+<li>Extensible</li>
+</ul>
 
-<p><strong>Extensible</strong></h4>
+<p>The main logic is written in <a href="https://www.rust-lang.org">Rust</a>, but the presentation/User interaction parts are written in different languages.</p>
+
+<h3 id="features">Features</h3>
+
+<ul>
+<li><p><strong>Security</strong></p>
+
+<ul>
+<li>Encryption using <em>AES</em> with <em>CTR</em> mode</li>
+<li>Password hashing with <em>bcrypt</em></li>
+<li>Encrypted bytes blending</li>
+<li>Passwords are kept encrypted in memory</li>
+<li>Encryption keys on runtime stored in safe, non-swappable memory</li>
+<li>Encryption keys change upon saving</li>
+</ul></li>
+
+<li><p><strong>Application Portability</strong></p>
+
+<ul>
+<li><a href="https://github.com/rust-keylock/rust-keylock-shell">Shell implementation</a> running on Linux and Windows</li>
+<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a></li>
+<li>JavaFX implementation (TODO)</li>
+</ul></li>
+
+<li><p><strong>Import/export mechanism</strong></p></li>
+</ul>
+
+<hr />
+
+<h3 id="the-rust-keylock-library-https-github-com-rust-keylock-rust-keylock-lib"><a href="https://github.com/rust-keylock/rust-keylock-lib">The <em>rust-keylock</em> library</a></h3>
+
+<p>Is the executor of the <em>rust-keylock</em> logic. The interaction with the <em>rust-keylock</em> users is done via other libraries, that have presentation responsibilities (aka <a href="https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/trait.Editor.html">Editors</a>).</p>
+
+<p>The documentation of the library can be found <a href="https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/">here</a>.</p>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
   
 </section>
 
 
-<section id="social-pane" class="row text-center social">
-  
-  
-  
-  
-  <a href="https://github.com/rust-keylock"><i class="fa fa-github" aria-hidden="true"></i></a>
-  
-  
-  
-  
-  
-  <a href="mailto:astonbitecode@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-  
-</section>
 
 
-<section id="main-menu-pane" class="row text-center main-menu">
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
   
-  <h4><a class="menu-item" href="/about/">about</a></h4>
   
-  <h4><a class="menu-item" href="/blog/">blog</a></h4>
   
-  <h4><a class="menu-item" href="/faq/">f.a.q.</a></h4>
   
+  
+  <h4 class="text-center"><a class="menu-item" href="https://rust-keylock.github.io/">home</a></h4>
 </section>
 
 
@@ -122,4 +147,5 @@ ga('send', 'pageview');
 <script src="js/main.js"></script>
 </body>
 </html>
+
 

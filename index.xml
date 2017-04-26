@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rust-keylock</title>
+    <link>https://rust-keylock.github.io/</link>
+    <description>Recent content on rust-keylock</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rust-keylock.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Announcing v0.2.1</title>
+      <link>https://rust-keylock.github.io/blog/announcing-v0.2.1/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/announcing-v0.2.1/</guid>
+      <description>
+
+&lt;p&gt;Release 0.2.1 is out!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;affected-repositories&#34;&gt;Affected repositories&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-lib&#34;&gt;rust-keylock-lib&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-shell&#34;&gt;rust-keylock-shell&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-android&#34;&gt;rust-keylock-android&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;changelist&#34;&gt;Changelist&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Handle decryption errors during the initialization and don&amp;rsquo;t panic&lt;/li&gt;
+&lt;li&gt;Change the name of the &lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-shell&#34;&gt;shell&lt;/a&gt; binary from &lt;em&gt;rust_keylock&lt;/em&gt; to &lt;em&gt;rust-keylock&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Keep the passwords encrypted in the memory&lt;/li&gt;
+&lt;li&gt;Keep the encryption/decryption keys in safe memory location&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;bugfixes&#34;&gt;Bugfixes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;rust-keylock-lib&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Panic when providing a very big number during authorization: &lt;em&gt;panicked at &amp;lsquo;assertion failed: salt.len() == 16&amp;rsquo;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;rust-keylock-android&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Crash when provided number cannot be parsed&lt;/li&gt;
+&lt;li&gt;Fixes regarding state saving&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;rust-keylock-shell&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Password number visible in the messages in cases of errors&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Announcing v0.1.0</title>
+      <link>https://rust-keylock.github.io/blog/announcing-v0.1.0/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/announcing-v0.1.0/</guid>
+      <description>
+
+&lt;p&gt;The first release of &lt;strong&gt;rust-keylock&lt;/strong&gt; is out!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;release-links&#34;&gt;Release links:&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-lib/releases&#34;&gt;rust-keylock-lib&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-shell/releases&#34;&gt;rust-keylock-shell&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-android/releases&#34;&gt;rust-keylock-android&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>F.A.Q.</title>
+      <link>https://rust-keylock.github.io/faq/</link>
+      <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/faq/</guid>
+      <description>&lt;p&gt;Coming soon&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://rust-keylock.github.io/about/</link>
+      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/about/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;rust-keylock&lt;/em&gt;&lt;/strong&gt; is a password manager and its goals are to be:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Secure&lt;/li&gt;
+&lt;li&gt;Simple to use&lt;/li&gt;
+&lt;li&gt;Portable&lt;/li&gt;
+&lt;li&gt;Extensible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The main logic is written in &lt;a href=&#34;https://www.rust-lang.org&#34;&gt;Rust&lt;/a&gt;, but the presentation/User interaction parts are written in different languages.&lt;/p&gt;
+
+&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Encryption using &lt;em&gt;AES&lt;/em&gt; with &lt;em&gt;CTR&lt;/em&gt; mode&lt;/li&gt;
+&lt;li&gt;Password hashing with &lt;em&gt;bcrypt&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Encrypted bytes blending&lt;/li&gt;
+&lt;li&gt;Passwords are kept encrypted in memory&lt;/li&gt;
+&lt;li&gt;Encryption keys on runtime stored in safe, non-swappable memory&lt;/li&gt;
+&lt;li&gt;Encryption keys change upon saving&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Application Portability&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-shell&#34;&gt;Shell implementation&lt;/a&gt; running on Linux and Windows&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-android&#34;&gt;Android implementation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JavaFX implementation (TODO)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Import/export mechanism&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;the-rust-keylock-library-https-github-com-rust-keylock-rust-keylock-lib&#34;&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-lib&#34;&gt;The &lt;em&gt;rust-keylock&lt;/em&gt; library&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Is the executor of the &lt;em&gt;rust-keylock&lt;/em&gt; logic. The interaction with the &lt;em&gt;rust-keylock&lt;/em&gt; users is done via other libraries, that have presentation responsibilities (aka &lt;a href=&#34;https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/trait.Editor.html&#34;&gt;Editors&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The documentation of the library can be found &lt;a href=&#34;https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
