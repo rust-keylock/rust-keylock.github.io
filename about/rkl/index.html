@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="rust-keylock Password Manager">
+<meta name="keywords" content="password,manager,rust,secure">
+
+<base href="https://rust-keylock.github.io/">
+
+<title>rust-keylock</title>
+
+<meta name="generator" content="Hugo 0.21-DEV" />
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://rust-keylock.github.io/css/main.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-US">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">About</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    
+
+<p><strong><em>rust-keylock</em></strong> is a password manager and its goals are to be:</p>
+
+<ul>
+<li>Secure</li>
+<li>Simple to use</li>
+<li>Portable</li>
+<li>Extensible</li>
+</ul>
+
+<p>The core logic is written in <a href="https://www.rust-lang.org">Rust</a>, but the presentation/User interaction parts are in different languages.</p>
+
+<h2 id="features">Features</h2>
+
+<h3 id="security">Security</h3>
+
+<ul>
+<li>The data is locked with a user-defined master password, using <em>bcrypt</em> password hashing</li>
+<li>Encryption using <em>AES</em> with <em>CTR</em> mode</li>
+<li>Encrypted bytes blending</li>
+<li>Passwords are kept encrypted in memory</li>
+<li>Encryption keys on runtime are stored in safe, non-swappable memory</li>
+<li>Encryption keys change upon saving, even if the user master password remains the same. This results to different encrypted products, even if the data that is being encrypted is the same.</li>
+</ul>
+
+<h3 id="application-portability">Application Portability</h3>
+
+<ul>
+<li><a href="https://github.com/rust-keylock/rust-keylock-shell">Shell implementation</a> running on Linux and Windows</li>
+<li><a href="https://github.com/rust-keylock/rust-keylock-ui">JavaFX implementation</a> running on Linux and Windows</li>
+<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a> soon to be published in <a href="https://gitlab.com/fdroid/fdroiddata/merge_requests/2141">F-Droid</a></li>
+</ul>
+
+<p>Thanks to <a href="https://github.com/japaric/xargo">xargo</a>, <a href="https://github.com/japaric/cross">cross</a> and <a href="https://github.com/java-native-access/jna">JNA</a>!</p>
+
+<h3 id="import-export-mechanism">Import/export mechanism</h3>
+
+<ul>
+<li>Export/import encrypted passwords to/from the filesystem</li>
+</ul>
+
+<h2 id="the-rust-keylock-library-and-the-editors">The <em>rust-keylock</em> library and the <em>Editors</em></h2>
+
+<p>The idea is that the <a href="https://github.com/rust-keylock/rust-keylock-lib">rust-keylock library</a> handles the core application logic, whereas the interaction with the <em>rust-keylock</em> users is done via libraries that have presentation responsibilities (aka <a href="https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/trait.Editor.html">Editors</a>).</p>
+
+<p>The library is responsible for the encryption/decryption, storing and retrieving encrypted data from the filesystem, taking backups (todo) and synchronizing with rust-keylock instances (todo).</p>
+
+<p>The Editors are driven by the rust-keylock library and are responsible for interacting with the Users and transfer the Users&rsquo; input to the library.</p>
+
+<p>The documentation can be found <a href="https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/">here</a>.</p>
+
+<h2 id="availability">Availability</h2>
+
+<p>Currently, there are Editors and executables for:</p>
+
+<ul>
+<li><a href="https://github.com/rust-keylock/rust-keylock-ui">UI Desktops</a></li>
+<li><a href="https://github.com/rust-keylock/rust-keylock-shell">Terminals</a></li>
+<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android</a></li>
+</ul>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+</section>
+
+
+
+
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="https://rust-keylock.github.io/">home</a></h4>
+</section>
+
+
+
+<footer class="row text-center footer">
+  <hr />
+  
+  <h6 class="text-center copyright">Free software, licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>. The rust-keylock developers 2017</h6>
+  
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
+  
+  
+</footer>
+
+</div>
+
+
+
+
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-84657729-2', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+

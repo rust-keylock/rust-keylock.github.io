@@ -15,7 +15,8 @@ a:hover,
 a:visited,
 a:link
 {
-    color: #526d7a;
+    color: #407d00;
+    font-weight: 500;
 }
 body
 {
@@ -28,7 +29,7 @@ body
     min-height: 100%;
     margin: 0;
 
-    background-color: #fcfcfc;
+    background-color: #ffffff;
 }
 html
 {
@@ -74,7 +75,7 @@ div.content
     font-size: 18px;
     font-weight: 300;
 
-    color: #777;
+    color: #333;
 }
 .copyright
 {
@@ -119,7 +120,7 @@ div.content
 {
     margin-top: 10px;
 
-    color: #bbb;
+    color: #4d4d4d;
 }
 .header
 {
@@ -183,11 +184,11 @@ h3.intro
 {
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
 
     text-decoration: none;
 
-    color: #966 !important;
+    color: #407d00 !important;
 }
 .meta
 {
@@ -232,7 +233,7 @@ section.meta {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
 
-    color: #555;
+    color: #000000;
 }
 header.title
 {

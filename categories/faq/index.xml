@@ -7,16 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 15 Feb 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://rust-keylock.github.io/categories/faq/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://rust-keylock.github.io/categories/faq/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>F.A.Q.</title>
-      <link>https://rust-keylock.github.io/faq/</link>
+      <link>https://rust-keylock.github.io/faq/rkl/</link>
       <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://rust-keylock.github.io/faq/</guid>
-      <description>&lt;p&gt;Coming soon&amp;hellip;&lt;/p&gt;
-</description>
+      <guid>https://rust-keylock.github.io/faq/rkl/</guid>
+      <description>What is the rust-keylock? rust-keylock is a password manager.
+What is the license? rust-keylock is a free software, licensed under GPLv3.
+Where is the code? The code is hosted on GitHub.
+Why so many GitHub repos? The idea is that there is a core rust-keylock library that handles the core application logic, whereas the interaction with the Users is done via libraries that have presentation responsibilities.
+Therefore, apart from the core library repo, the rest are presentation libraries.</description>
     </item>
     
   </channel>

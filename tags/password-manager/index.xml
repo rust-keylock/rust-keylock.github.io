@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://rust-keylock.github.io/tags/password-manager/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://rust-keylock.github.io/tags/password-manager/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Announcing v0.2.1</title>
@@ -15,52 +17,12 @@
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/blog/announcing-v0.2.1/</guid>
-      <description>
-
-&lt;p&gt;Release 0.2.1 is out!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;affected-repositories&#34;&gt;Affected repositories&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-lib&#34;&gt;rust-keylock-lib&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-shell&#34;&gt;rust-keylock-shell&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-android&#34;&gt;rust-keylock-android&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;changelist&#34;&gt;Changelist&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Handle decryption errors during the initialization and don&amp;rsquo;t panic&lt;/li&gt;
-&lt;li&gt;Change the name of the &lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-shell&#34;&gt;shell&lt;/a&gt; binary from &lt;em&gt;rust_keylock&lt;/em&gt; to &lt;em&gt;rust-keylock&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Keep the passwords encrypted in the memory&lt;/li&gt;
-&lt;li&gt;Keep the encryption/decryption keys in safe memory location&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;bugfixes&#34;&gt;Bugfixes&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;rust-keylock-lib&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Panic when providing a very big number during authorization: &lt;em&gt;panicked at &amp;lsquo;assertion failed: salt.len() == 16&amp;rsquo;&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;rust-keylock-android&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Crash when provided number cannot be parsed&lt;/li&gt;
-&lt;li&gt;Fixes regarding state saving&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;rust-keylock-shell&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Password number visible in the messages in cases of errors&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Release 0.2.1 is out!
+Affected repositories rust-keylock-lib
+rust-keylock-shell
+rust-keylock-android
+Changelist  Handle decryption errors during the initialization and don&amp;rsquo;t panic Change the name of the shell binary from rust_keylock to rust-keylock Keep the passwords encrypted in the memory Keep the encryption/decryption keys in safe memory location  Bugfixes  rust-keylock-lib
+ Panic when providing a very big number during authorization: panicked at &amp;lsquo;assertion failed: salt.len() == 16&amp;rsquo;  rust-keylock-android</description>
     </item>
     
     <item>
@@ -69,20 +31,10 @@
       <pubDate>Wed, 15 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/blog/announcing-v0.1.0/</guid>
-      <description>
-
-&lt;p&gt;The first release of &lt;strong&gt;rust-keylock&lt;/strong&gt; is out!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;release-links&#34;&gt;Release links:&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-lib/releases&#34;&gt;rust-keylock-lib&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-shell/releases&#34;&gt;rust-keylock-shell&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-android/releases&#34;&gt;rust-keylock-android&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>The first release of rust-keylock is out!
+Release links: rust-keylock-lib
+rust-keylock-shell
+rust-keylock-android</description>
     </item>
     
   </channel>

@@ -6,61 +6,19 @@
     <description>Recent content in About on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 14 Feb 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://rust-keylock.github.io/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://rust-keylock.github.io/categories/about/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>About</title>
-      <link>https://rust-keylock.github.io/about/</link>
-      <pubDate>Tue, 14 Feb 2017 00:00:00 +0000</pubDate>
+      <link>https://rust-keylock.github.io/about/rkl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://rust-keylock.github.io/about/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;rust-keylock&lt;/em&gt;&lt;/strong&gt; is a password manager and its goals are to be:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Secure&lt;/li&gt;
-&lt;li&gt;Simple to use&lt;/li&gt;
-&lt;li&gt;Portable&lt;/li&gt;
-&lt;li&gt;Extensible&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The main logic is written in &lt;a href=&#34;https://www.rust-lang.org&#34;&gt;Rust&lt;/a&gt;, but the presentation/User interaction parts are written in different languages.&lt;/p&gt;
-
-&lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Encryption using &lt;em&gt;AES&lt;/em&gt; with &lt;em&gt;CTR&lt;/em&gt; mode&lt;/li&gt;
-&lt;li&gt;Password hashing with &lt;em&gt;bcrypt&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Encrypted bytes blending&lt;/li&gt;
-&lt;li&gt;Passwords are kept encrypted in memory&lt;/li&gt;
-&lt;li&gt;Encryption keys on runtime stored in safe, non-swappable memory&lt;/li&gt;
-&lt;li&gt;Encryption keys change upon saving&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Application Portability&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-shell&#34;&gt;Shell implementation&lt;/a&gt; running on Linux and Windows&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-android&#34;&gt;Android implementation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;JavaFX implementation (TODO)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Import/export mechanism&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;the-rust-keylock-library-https-github-com-rust-keylock-rust-keylock-lib&#34;&gt;&lt;a href=&#34;https://github.com/rust-keylock/rust-keylock-lib&#34;&gt;The &lt;em&gt;rust-keylock&lt;/em&gt; library&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;Is the executor of the &lt;em&gt;rust-keylock&lt;/em&gt; logic. The interaction with the &lt;em&gt;rust-keylock&lt;/em&gt; users is done via other libraries, that have presentation responsibilities (aka &lt;a href=&#34;https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/trait.Editor.html&#34;&gt;Editors&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;The documentation of the library can be found &lt;a href=&#34;https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>https://rust-keylock.github.io/about/rkl/</guid>
+      <description>rust-keylock is a password manager and its goals are to be:
+ Secure Simple to use Portable Extensible  The core logic is written in Rust, but the presentation/User interaction parts are in different languages.
+Features Security  The data is locked with a user-defined master password, using bcrypt password hashing Encryption using AES with CTR mode Encrypted bytes blending Passwords are kept encrypted in memory Encryption keys on runtime are stored in safe, non-swappable memory Encryption keys change upon saving, even if the user master password remains the same.</description>
     </item>
     
   </channel>

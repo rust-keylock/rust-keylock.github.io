@@ -41,7 +41,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">Announcing v0.1.0</h1>
+  <h1 class="title">F.A.Q.</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -50,17 +50,47 @@
   <div class="col-md-12 text-justify content">
     
 
-<p>The first release of <strong>rust-keylock</strong> is out!</p>
+<h3 id="what-is-the-rust-keylock">What is the rust-keylock?</h3>
 
-<hr />
+<p>rust-keylock is a password manager.</p>
 
-<h2 id="release-links">Release links:</h2>
+<h3 id="what-is-the-license">What is the license?</h3>
 
-<p><a href="https://github.com/rust-keylock/rust-keylock-lib/releases">rust-keylock-lib</a></p>
+<p>rust-keylock is a free software, licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>.</p>
 
-<p><a href="https://github.com/rust-keylock/rust-keylock-shell/releases">rust-keylock-shell</a></p>
+<h3 id="where-is-the-code">Where is the code?</h3>
 
-<p><a href="https://github.com/rust-keylock/rust-keylock-android/releases">rust-keylock-android</a></p>
+<p>The code is hosted on <a href="https://github.com/rust-keylock">GitHub</a>.</p>
+
+<h3 id="why-so-many-github-repos-https-github-com-rust-keylock">Why so many <a href="https://github.com/rust-keylock">GitHub repos</a>?</h3>
+
+<p>The idea is that there is a core <a href="https://github.com/rust-keylock/rust-keylock-lib">rust-keylock library</a> that handles the core application logic, whereas the interaction with the Users is done via libraries that have presentation responsibilities.</p>
+
+<p>Therefore, apart from the core library repo, the rest are presentation libraries.</p>
+
+<h3 id="which-presentation-library-should-i-choose">Which presentation library should I choose?</h3>
+
+<p>Use:</p>
+
+<ul>
+<li>the <a href="https://github.com/rust-keylock/rust-keylock-ui">rust-keylock-ui</a> in a Desktop UI environment</li>
+<li>the <a href="https://github.com/rust-keylock/rust-keylock-android">rust-keylock-android</a> in Android devices</li>
+<li>the <a href="https://github.com/rust-keylock/rust-keylock-shell">rust-keylock-shell</a> for the command line</li>
+</ul>
+
+<h3 id="what-platforms-are-supported">What platforms are supported?</h3>
+
+<p>Currently the supported platforms are linux-x86-64, windows-x86-64 and Android-Arm.</p>
+
+<h3 id="how-i-can-install-it">How I can install it?</h3>
+
+<p>rust-keylock is a work in progress and currently there are not a lot of options for installing binaries of it. The shell executable can be installed by the <a href="https://crates.io/crates/rust_keylock_shell">crates.io</a>, the <a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a> will be soon be published in <a href="https://gitlab.com/fdroid/fdroiddata/merge_requests/2141">F-Droid</a> and that&rsquo;s about it for now&hellip;</p>
+
+<p>Of course, you can build binaries yourself, following the instructions in the GitHub repos.</p>
+
+<h3 id="will-you-provide-binaries-for-download-and-install">Will you provide binaries for download and install?</h3>
+
+<p>Yes! There will be binaries included in the GitHub release pages.</p>
 
   </div>
 </section>
@@ -79,10 +109,6 @@
   
   
   
-  <span><a class="menu-item" href="/blog">blog</a></span>
-  
-  
-  <span><a class="menu-item" href="https://rust-keylock.github.io/blog/announcing-v0.2.1/"> | next &gt;</a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="https://rust-keylock.github.io/">home</a></h4>
