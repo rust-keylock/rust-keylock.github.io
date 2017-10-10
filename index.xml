@@ -6,10 +6,25 @@
     <description>Recent content on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>v0.3.0 contents</title>
+      <link>https://rust-keylock.github.io/blog/next-release-contents-0-3-0/</link>
+      <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/next-release-contents-0-3-0/</guid>
+      <description> Upcoming release contents
+This post is about announcing what the next release of rust-keylock will include.
+New features  Inactivity timeout mechanism Filtering mechanism
+Ability to filter the list of passwords to improve the user experience when the saved passwords are too many.
+ Integrity checks
+Use cryptographic checksums to imply about stored data integrity
+  Code and infrastructure improvements  Replace the deprecated library rustc_serialize with serde Provide release artifacts for all the rust-keylock subprojects in GitHub  Plus &amp;hellip; Bugfixes </description>
+    </item>
     
     <item>
       <title>Announcing v0.2.1</title>
