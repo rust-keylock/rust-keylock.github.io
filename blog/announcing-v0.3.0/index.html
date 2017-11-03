@@ -41,7 +41,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">v0.3.0 contents</h1>
+  <h1 class="title">Announcing v0.3.0</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -50,34 +50,59 @@
   <div class="col-md-12 text-justify content">
     
 
-<p>Upcoming release contents</p>
+<p>Release 0.3.0 is out!</p>
 
 <hr />
 
-<p>This post is about announcing what the next release of rust-keylock will include.</p>
+<h2 id="affected-repositories">Affected repositories</h2>
 
-<h2 id="new-features">New features</h2>
+<p><a href="https://github.com/rust-keylock/rust-keylock-lib">rust-keylock-lib</a></p>
 
-<ol>
-<li>Inactivity timeout mechanism</li>
+<p><a href="https://github.com/rust-keylock/rust-keylock-shell">rust-keylock-shell</a></p>
 
-<li><p>Filtering mechanism</p>
+<p><a href="https://github.com/rust-keylock/rust-keylock-android">rust-keylock-android</a></p>
 
-<p>Ability to filter the list of passwords to improve the user experience when the saved passwords are too many.</p></li>
+<p><a href="https://github.com/rust-keylock/rust-keylock-ui">rust-keylock-ui</a></p>
 
-<li><p>Integrity checks</p>
+<h2 id="changelist">Changelist</h2>
 
-<p>Use cryptographic checksums to imply about stored data integrity</p></li>
-</ol>
+<ul>
+<li><p>Data Integrity checks:</p>
+
+<p>Protection against data corruption using SHA-3 hashing with 512 bits output.</p></li>
+
+<li><p>Filtering mechanism:</p>
+
+<p>Ability to filter the list of passwords to improve the user experience.</p></li>
+
+<li><p>Timeout mechanism:</p>
+
+<p>Enhance security by automatically locking after inactivity period.</p></li>
+</ul>
+
+<h2 id="bugfixes">Bugfixes</h2>
+
+<ul>
+<li><p>Fixed merging when importing entries:</p>
+
+<p>The identical entries were not recognized, resulting to duplicate entries after importing</p></li>
+
+<li><p>Fixed Error when empty password is provided:</p>
+
+<p><em>&lsquo;assertion failed: 0 &lt; password.len() &amp;&amp; password.len() &lt;= 72&rsquo;</em></p></li>
+
+<li><p>Exit without errors when the user selects to close the application before providing the password</p></li>
+</ul>
 
 <h2 id="code-and-infrastructure-improvements">Code and infrastructure improvements</h2>
 
-<ol>
-<li>Replace the deprecated library <code>rustc_serialize</code> with <code>serde</code></li>
-<li>Provide release artifacts for all the rust-keylock subprojects in GitHub</li>
-</ol>
+<ul>
+<li><p>Provide release artifacts for all the rust-keylock subprojects in GitHub:</p>
 
-<h2 id="plus-bugfixes">Plus &hellip; Bugfixes</h2>
+<p>Use travis to deploy artifacts on GitHub upon releases.</p></li>
+
+<li><p>Replace the deprecated library <code>rustc_serialize</code> with <a href="https://github.com/serde-rs/serde">serde</a></p></li>
+</ul>
 
   </div>
 </section>
@@ -95,13 +120,11 @@
 <section id="menu-pane" class="row menu text-center">
   
   
-  <span><a class="menu-item" href="https://rust-keylock.github.io/blog/announcing-v0.2.1/">&lt; prev | </a></span>
+  <span><a class="menu-item" href="https://rust-keylock.github.io/blog/next-release-contents-0-3-0/">&lt; prev | </a></span>
   
   
   <span><a class="menu-item" href="/blog">blog</a></span>
   
-  
-  <span><a class="menu-item" href="https://rust-keylock.github.io/blog/announcing-v0.3.0/"> | next &gt;</a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="https://rust-keylock.github.io/">home</a></h4>

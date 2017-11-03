@@ -6,10 +6,31 @@
     <description>Recent content in Anouncements on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 11 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/categories/anouncements/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Announcing v0.3.0</title>
+      <link>https://rust-keylock.github.io/blog/announcing-v0.3.0/</link>
+      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/announcing-v0.3.0/</guid>
+      <description>Release 0.3.0 is out!
+Affected repositories rust-keylock-lib
+rust-keylock-shell
+rust-keylock-android
+rust-keylock-ui
+Changelist  Data Integrity checks:
+Protection against data corruption using SHA-3 hashing with 512 bits output.
+ Filtering mechanism:
+Ability to filter the list of passwords to improve the user experience.
+ Timeout mechanism:
+Enhance security by automatically locking after inactivity period.
+  Bugfixes  Fixed merging when importing entries:
+The identical entries were not recognized, resulting to duplicate entries after importing</description>
+    </item>
     
     <item>
       <title>v0.3.0 contents</title>
