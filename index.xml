@@ -97,5 +97,19 @@ Therefore, apart from the core library repo, the rest are presentation libraries
 Features Security  The data is locked with a user-defined master password, using bcrypt password hashing Encryption using AES with CTR mode Data integrity checks with SHA3 (Keccak) Encrypted bytes blending Passwords are kept encrypted in memory Encryption keys on runtime are stored in safe, non-swappable memory Encryption keys change upon saving, even if the user master password remains the same.</description>
     </item>
     
+    <item>
+      <title>Download</title>
+      <link>https://rust-keylock.github.io/download/rkl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/download/rkl/</guid>
+      <description>rust-keylock is delivered as a desktop app, an Android app and a shell app.
+Here is how you can install what you are interested in:
+Desktop The desktop application can currently run on Linux (x64) and Windows (x64).
+Prerequisites Java 8 (or later) should be installed on your system.
+Installation and Usage  Download the .zip or .tar.gz file.
+ Both compressed files contain the same application, so you may select whichever suits your environment.</description>
+    </item>
+    
   </channel>
 </rss>

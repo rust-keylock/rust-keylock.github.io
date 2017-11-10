@@ -28,12 +28,12 @@
   </url>
   
   <url>
-    <loc>https://rust-keylock.github.io/categories/about/</loc>
+    <loc>https://rust-keylock.github.io/tags/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://rust-keylock.github.io/tags/about/</loc>
+    <loc>https://rust-keylock.github.io/categories/about/</loc>
     <priority>0</priority>
   </url>
   
@@ -71,13 +71,32 @@
   </url>
   
   <url>
-    <loc>https://rust-keylock.github.io/categories/faq/</loc>
-    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
+    <loc>https://rust-keylock.github.io/tags/download/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/categories/download/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/download/rkl/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/download/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rust-keylock.github.io/tags/faq/</loc>
+    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/categories/faq/</loc>
     <lastmod>2017-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
