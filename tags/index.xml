@@ -6,7 +6,7 @@
     <description>Recent content in Tags on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,7 @@
     <item>
       <title>Anouncement</title>
       <link>https://rust-keylock.github.io/tags/anouncement/</link>
-      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/tags/anouncement/</guid>
       <description></description>
@@ -50,7 +50,7 @@
     <item>
       <title>Password Manager</title>
       <link>https://rust-keylock.github.io/tags/password-manager/</link>
-      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/tags/password-manager/</guid>
       <description></description>
@@ -59,7 +59,7 @@
     <item>
       <title>Rust</title>
       <link>https://rust-keylock.github.io/tags/rust/</link>
-      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/tags/rust/</guid>
       <description></description>
@@ -68,9 +68,27 @@
     <item>
       <title>Secure</title>
       <link>https://rust-keylock.github.io/tags/secure/</link>
-      <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/tags/secure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synchronization</title>
+      <link>https://rust-keylock.github.io/tags/synchronization/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/tags/synchronization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wiki</title>
+      <link>https://rust-keylock.github.io/tags/wiki/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/tags/wiki/</guid>
       <description></description>
     </item>
     

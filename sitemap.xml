@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rust-keylock.github.io/blog/announcing-v0.4.0/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/wiki/sync-with-nextcloud/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rust-keylock.github.io/blog/announcing-v0.3.0/</loc>
     <lastmod>2017-11-03T00:00:00+00:00</lastmod>
   </url>
@@ -48,25 +58,25 @@
   
   <url>
     <loc>https://rust-keylock.github.io/tags/anouncement/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rust-keylock.github.io/categories/anouncements/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rust-keylock.github.io/blog/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rust-keylock.github.io/categories/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -109,31 +119,55 @@
   
   <url>
     <loc>https://rust-keylock.github.io/tags/password-manager/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rust-keylock.github.io/tags/rust/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rust-keylock.github.io/tags/secure/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/tags/synchronization/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rust-keylock.github.io/tags/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/tags/wiki/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/categories/wiki/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/wiki/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rust-keylock.github.io/</loc>
-    <lastmod>2017-11-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

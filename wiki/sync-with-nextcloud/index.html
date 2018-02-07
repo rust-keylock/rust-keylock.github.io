@@ -41,7 +41,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">Download</h1>
+  <h1 class="title">Synchronizing with Nextcloud</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -50,61 +50,45 @@
   <div class="col-md-12 text-justify content">
     
 
-<p><em>rust-keylock</em> is delivered as a desktop app, an Android app and a shell app.</p>
+<p>Since version 0.4.0, the rust-keylock has the ability to synchronize passwords and data over a Nextcloud (or Owncloud) server.</p>
 
-<p>Here is how you can install what you are interested in:</p>
+<h3 id="setup">Setup</h3>
 
-<hr />
+<p>From the main menu, navigate to the <strong>Configuration</strong> and fill the fields.</p>
 
-<h2 id="desktop">Desktop</h2>
+<p>The <em>Server URL</em>, the <em>Username</em> and the <em>Password</em> should be filled in order to assume correct configuration.</p>
 
-<p>The desktop application can currently run on Linux (x64) and Windows (x64).</p>
+<h3 id="self-signed-certificates">Self-signed certificates</h3>
 
-<h4 id="prerequisites">Prerequisites</h4>
-
-<p><a href="https://java.com/en/download/">Java 8</a> (or later) should be installed on your system.</p>
-
-<h4 id="installation-and-usage">Installation and Usage</h4>
+<p>If your Nextcloud server is accessed via HTTPS using a self signed certificate, you need to:</p>
 
 <ol>
-<li><p><a href="https://github.com/rust-keylock/rust-keylock-ui/releases/latest">Download</a> the .zip or .tar.gz file.</p>
+<li><p>Check the <strong>self-signed certificate</strong> checkbox in the rust-keylock &ldquo;<strong>Configuration</strong>&rdquo; view.</p></li>
 
-<ul>
-<li>Both compressed files contain the same application, so you may select whichever suits your environment.</li>
-<li>You may optionally verify the integrity of the downloaded files using <a href="https://github.com/rust-keylock/rust-keylock-ui/releases/download/v0.4.0/sha1.txt">SHA1</a> or <a href="https://github.com/rust-keylock/rust-keylock-ui/releases/download/v0.4.0/sha512.txt">SHA512</a>.</li>
-</ul></li>
+<li><p>In Firefox, assuming that you have already accepted the certificate, browse to your Nextcloud page and click on the green lock on the left side of the address bar and then click &ldquo;<strong>More Information</strong>&ldquo;</p></li>
 
-<li><p>Uncompress the downloaded file anywhere in your system</p></li>
+<li><p>On the &ldquo;<strong>Security</strong>&rdquo; tab of the dialog that pops up, click &ldquo;<strong>View Certificate</strong>&ldquo;</p></li>
 
-<li><p>Go to the directory where the files were decompressed and run</p>
+<li><p>On the new dialog that appears, go to the &ldquo;<strong>Details</strong>&rdquo; tab and click &ldquo;<strong>Export</strong>&ldquo;</p></li>
 
-<p><code>java -jar desktop-ui-0.4.0.jar</code></p></li>
+<li><p>Select X.509 certificate (PEM) and save the file as <strong>cacert.pem</strong></p>
+
+<p><em>Note: it is important to name the exported file exactly like that</em></p></li>
+
+<li><p>Depending where you run the rust-keylock, you need to copy the exported file to the following locations:</p>
+
+<h4 id="linux-home-rust-keylock-etc-ssl-certs">Linux: <code>$HOME/.rust-keylock/etc/ssl/certs</code></h4>
+
+<h4 id="windows-homepath-rust-keylock-etc-ssl-certs">Windows: <code>%HOMEPATH%\.rust-keylock\etc\ssl\certs</code></h4>
+
+<h4 id="android-download-rust-keylock-etc-ssl-certs">Android: <code>Download/rust-keylock/etc/ssl/certs</code></h4></li>
 </ol>
 
-<hr />
+<h3 id="synchronizing">Synchronizing</h3>
 
-<h2 id="android">Android</h2>
+<p>Once a Nextcloud server is correctly setup, a background task will be checking for changes and will synchronize if needed.</p>
 
-<p>We hope that <a href="https://gitlab.com/fdroid/fdroiddata/merge_requests/2668">F-Droid</a> will host the app shortly.</p>
-
-<p>Until then, you may download the .apk from <a href="https://github.com/rust-keylock/rust-keylock-android/releases/latest">here</a> and install it yourself.</p>
-
-<hr />
-
-<h2 id="shell">Shell</h2>
-
-<p>Currently, the shell application is provided via <a href="https://crates.io/">cargo</a>. Therefore, it can run where Rust can be installed.</p>
-
-<h4 id="prerequisites-1">Prerequisites</h4>
-
-<p><a href="https://www.rust-lang.org/en-US/install.html">Rust</a> should be installed on your system.</p>
-
-<h4 id="installation-and-usage-1">Installation and usage</h4>
-
-<ol>
-<li>Install by issuing <code>cargo install rust_keylock_shell</code>.</li>
-<li>Run executing <code>rust-keylock</code> from the command line.</li>
-</ol>
+<p>However, you may perform synchronization on demand, by clicking the &ldquo;<strong>Synchronize now</strong>&rdquo; from the Main menu.</p>
 
   </div>
 </section>

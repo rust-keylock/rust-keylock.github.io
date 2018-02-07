@@ -6,10 +6,31 @@
     <description>Recent content in Anouncements on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 03 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/categories/anouncements/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Announcing v0.4.0</title>
+      <link>https://rust-keylock.github.io/blog/announcing-v0.4.0/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/announcing-v0.4.0/</guid>
+      <description> Release 0.4.0 is out!
+Affected repositories rust-keylock-lib
+rust-keylock-shell
+rust-keylock-android
+rust-keylock-ui
+Changelist  Synchronize with (Next/Own)cloud
+ Using internal configuration and added configuration dialogs
+ Use sec_str in Windows as well
+  Bugfixes  Fixed wrong AES key size
+ Fixed Windows shell cleaning
+ Fixed focus lost when applying filter on Android
+ Fixed showing large texts on alerts/messages
+  Code and infrastructure improvements  Sign the apk files that are published by Travis CI  </description>
+    </item>
     
     <item>
       <title>Announcing v0.3.0</title>
