@@ -139,10 +139,9 @@ Features Security  The data is locked with a user-defined master password, using
       <guid>https://rust-keylock.github.io/download/rkl/</guid>
       <description>rust-keylock is delivered as a desktop app, an Android app and a shell app.
 Here is how you can install what you are interested in:
-Desktop The desktop application can currently run on Linux (x64) and Windows (x64).
-Prerequisites Java 8 (or later) should be installed on your system.
-Installation and Usage  Download the .zip or .tar.gz file.
- Both compressed files contain the same application, so you may select whichever suits your environment.</description>
+Desktop The desktop application is offered as a Snap.
+Android You may download the .apk from here and install it yourself on your devices.
+Please note that the .apk is built and deployed automatically by Travis CI upon each release to ensure that the code being built is publicly available.</description>
     </item>
     
   </channel>

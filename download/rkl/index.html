@@ -58,48 +58,25 @@
 
 <h2 id="desktop">Desktop</h2>
 
-<p>The desktop application can currently run on Linux (x64) and Windows (x64).</p>
-
-<h4 id="prerequisites">Prerequisites</h4>
-
-<p><a href="https://java.com/en/download/">Java 8</a> (or later) should be installed on your system.</p>
-
-<h4 id="installation-and-usage">Installation and Usage</h4>
-
-<ol>
-<li><p><a href="https://github.com/rust-keylock/rust-keylock-ui/releases/latest">Download</a> the .zip or .tar.gz file.</p>
-
-<ul>
-<li>Both compressed files contain the same application, so you may select whichever suits your environment.</li>
-<li>You may optionally verify the integrity of the downloaded files using <a href="https://github.com/rust-keylock/rust-keylock-ui/releases/download/v0.4.0/sha1.txt">SHA1</a> or <a href="https://github.com/rust-keylock/rust-keylock-ui/releases/download/v0.4.0/sha512.txt">SHA512</a>.</li>
-</ul></li>
-
-<li><p>Uncompress the downloaded file anywhere in your system</p></li>
-
-<li><p>Go to the directory where the files were decompressed and run</p>
-
-<p><code>java -jar desktop-ui-0.4.0.jar</code></p></li>
-</ol>
-
-<hr />
+<p>The desktop application is offered as a <a href="https://snapcraft.io/rust-keylock-ui">Snap</a>.</p>
 
 <h2 id="android">Android</h2>
 
-<p>We hope that <a href="https://gitlab.com/fdroid/fdroiddata/merge_requests/2668">F-Droid</a> will host the app shortly.</p>
+<p>You may download the .apk from <a href="https://github.com/rust-keylock/rust-keylock-android/releases/latest">here</a> and install it yourself on your devices.</p>
 
-<p>Until then, you may download the .apk from <a href="https://github.com/rust-keylock/rust-keylock-android/releases/latest">here</a> and install it yourself.</p>
+<p>Please note that the .apk is built and deployed automatically by <a href="https://travis-ci.org/rust-keylock/rust-keylock-android">Travis CI</a> upon each release to ensure that the code being built is publicly available.</p>
 
 <hr />
 
 <h2 id="shell">Shell</h2>
 
-<p>Currently, the shell application is provided via <a href="https://crates.io/">cargo</a>. Therefore, it can run where Rust can be installed.</p>
+<p>Currently, the shell application is provided via <a href="https://crates.io/">crates.io</a> and cargo.</p>
 
-<h4 id="prerequisites-1">Prerequisites</h4>
+<h4 id="prerequisites">Prerequisites</h4>
 
 <p><a href="https://www.rust-lang.org/en-US/install.html">Rust</a> should be installed on your system.</p>
 
-<h4 id="installation-and-usage-1">Installation and usage</h4>
+<h4 id="installation-and-usage">Installation and usage</h4>
 
 <ol>
 <li>Install by issuing <code>cargo install rust_keylock_shell</code>.</li>

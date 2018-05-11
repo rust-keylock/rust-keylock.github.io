@@ -75,21 +75,30 @@
 <li>Encryption keys change upon saving, even if the user master password remains the same. This results to different encrypted products, even if the data that is being encrypted is the same.</li>
 </ul>
 
+<h3 id="data-availability">Data Availability</h3>
+
+<ul>
+<li>Synchronization over Nextcloud or Owncloud</li>
+<li>Export/import encrypted passwords to/from the filesystem</li>
+</ul>
+
 <h3 id="application-portability">Application Portability</h3>
 
 <ul>
-<li><a href="https://github.com/rust-keylock/rust-keylock-shell">Shell implementation</a> running on Linux and Windows</li>
-<li><a href="https://github.com/rust-keylock/rust-keylock-ui">JavaFX implementation</a> running on Linux and Windows</li>
-<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a> to be published in <a href="https://gitlab.com/fdroid/fdroiddata/merge_requests/2668">F-Droid</a></li>
-</ul>
-
-<p>Thanks to <a href="https://github.com/japaric/xargo">xargo</a>, <a href="https://github.com/japaric/cross">cross</a> and <a href="https://github.com/java-native-access/jna">JNA</a>!</p>
-
-<h3 id="import-export-mechanism">Import/export mechanism</h3>
+<li><a href="https://github.com/rust-keylock/rust-keylock-shell">Shell implementation</a>.</li>
+<li><a href="https://github.com/rust-keylock/rust-keylock-ui">JavaFX implementation</a>.
 
 <ul>
-<li>Export/import encrypted passwords to/from the filesystem</li>
+<li>Using the <a href="https://github.com/astonbitecode/j4rs">j4rs crate</a></li>
+</ul></li>
+<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a>
+
+<ul>
+<li>Using <a href="https://github.com/japaric/xargo">xargo</a> and <a href="https://github.com/java-native-access/jna">JNA</a></li>
+</ul></li>
 </ul>
+
+<p>See how to <a href="https://rust-keylock.github.io/download/rkl/">download and install</a>.</p>
 
 <h2 id="the-rust-keylock-library-and-the-editors">The <em>rust-keylock</em> library and the <em>Editors</em></h2>
 
@@ -100,16 +109,6 @@
 <p>The Editors are driven by the rust-keylock library and are responsible for interacting with the Users and transfer the Users&rsquo; input to the library.</p>
 
 <p>The documentation can be found <a href="https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/">here</a>.</p>
-
-<h2 id="availability">Availability</h2>
-
-<p>Currently, there are Editors and executables for:</p>
-
-<ul>
-<li><a href="https://github.com/rust-keylock/rust-keylock-ui">UI Desktops</a></li>
-<li><a href="https://github.com/rust-keylock/rust-keylock-shell">Terminals</a></li>
-<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android</a></li>
-</ul>
 
   </div>
 </section>
