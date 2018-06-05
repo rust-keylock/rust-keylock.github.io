@@ -41,7 +41,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">About</h1>
+  <h1 class="title">Announcing v0.5.0</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -50,66 +50,45 @@
   <div class="col-md-12 text-justify content">
     
 
-<p><strong><em>rust-keylock</em></strong> is a password manager and its goals are to be:</p>
+<p>Release 0.5.0 is out!</p>
+
+<hr />
+
+<h2 id="affected-repositories">Affected repositories</h2>
+
+<p><a href="https://github.com/rust-keylock/rust-keylock-lib">rust-keylock-lib</a></p>
+
+<p><a href="https://github.com/rust-keylock/rust-keylock-shell">rust-keylock-shell</a></p>
+
+<p><a href="https://github.com/rust-keylock/rust-keylock-android">rust-keylock-android</a></p>
+
+<p><a href="https://github.com/rust-keylock/rust-keylock-ui">rust-keylock-ui</a></p>
+
+<h2 id="changelist">Changelist</h2>
 
 <ul>
-<li>Secure</li>
-<li>Simple to use</li>
-<li>Portable</li>
-<li>Extensible</li>
+<li><p>Implemented automated backups locally</p></li>
+
+<li><p>Added Warning when about to overwrite an existing file while exporting locally</p></li>
+
+<li><p>The desctiprion of the password entries is now a text area</p></li>
 </ul>
 
-<p>The core logic is written in <a href="https://www.rust-lang.org">Rust</a>, but the presentation/User interaction parts are in different languages.</p>
-
-<h2 id="features">Features</h2>
-
-<h3 id="security">Security</h3>
+<h2 id="bugfixes">Bugfixes</h2>
 
 <ul>
-<li>The data is locked with a user-defined master password, using <em>bcrypt</em> password hashing</li>
-<li>Encryption using <em>AES</em> with <em>CTR</em> mode</li>
-<li>Data integrity checks with SHA3 (Keccak)</li>
-<li>Encrypted bytes blending</li>
-<li>Passwords are kept encrypted in memory</li>
-<li>Encryption keys on runtime are stored in safe, non-swappable memory</li>
-<li>Encryption keys change upon saving, even if the user master password remains the same. This results to different encrypted products, even if the data that is being encrypted is the same.</li>
+<li><p>Fix: Exception in thread &ldquo;JavaFX Application Thread&rdquo; java.lang.NumberFormatException: For input string: &ldquo;&rdquo;</p></li>
+
+<li><p>Stop the inactivity timer after first time that the user is logged out because of inactivity</p></li>
+
+<li><p>Fixed logging issues</p></li>
 </ul>
 
-<h3 id="data-availability">Data Availability</h3>
+<h2 id="code-and-infrastructure-improvements">Code and infrastructure improvements</h2>
 
 <ul>
-<li>Synchronization over Nextcloud or Owncloud</li>
-<li>Automated backups</li>
-<li>Export/import encrypted passwords to/from the filesystem</li>
+<li>Use <a href="https://coveralls.io/github/rust-keylock/rust-keylock-lib?branch=master">coveralls</a> for code coverage reports and tacking.</li>
 </ul>
-
-<h3 id="application-portability">Application Portability</h3>
-
-<ul>
-<li><a href="https://github.com/rust-keylock/rust-keylock-shell">Shell implementation</a>.</li>
-<li><a href="https://github.com/rust-keylock/rust-keylock-ui">JavaFX implementation</a>.
-
-<ul>
-<li>Using the <a href="https://github.com/astonbitecode/j4rs">j4rs crate</a></li>
-</ul></li>
-<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a>
-
-<ul>
-<li>Using <a href="https://github.com/japaric/xargo">xargo</a> and <a href="https://github.com/java-native-access/jna">JNA</a></li>
-</ul></li>
-</ul>
-
-<p>See how to <a href="https://rust-keylock.github.io/download/rkl/">download and install</a>.</p>
-
-<h2 id="the-rust-keylock-library-and-the-editors">The <em>rust-keylock</em> library and the <em>Editors</em></h2>
-
-<p>The idea is that the <a href="https://github.com/rust-keylock/rust-keylock-lib">rust-keylock library</a> handles the core application logic, whereas the interaction with the <em>rust-keylock</em> users is done via libraries that have presentation responsibilities (aka <a href="https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/trait.Editor.html">Editors</a>).</p>
-
-<p>The library is responsible for the encryption/decryption, storing and retrieving encrypted data from the filesystem, taking backups and synchronizing with rust-keylock instances.</p>
-
-<p>The Editors are driven by the rust-keylock library and are responsible for interacting with the Users and transfer the Users&rsquo; input to the library.</p>
-
-<p>The documentation can be found <a href="https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/">here</a>.</p>
 
   </div>
 </section>
@@ -127,6 +106,10 @@
 <section id="menu-pane" class="row menu text-center">
   
   
+  <span><a class="menu-item" href="https://rust-keylock.github.io/blog/announcing-v0.4.0/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="/blog">blog</a></span>
   
   
   
