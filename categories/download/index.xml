@@ -11,16 +11,16 @@
     
     
     <item>
-      <title>Download</title>
+      <title>Download and Install</title>
       <link>https://rust-keylock.github.io/download/rkl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/download/rkl/</guid>
       <description>rust-keylock is delivered as a desktop app, an Android app and a shell app.
 Here is how you can install what you are interested in:
-Desktop The desktop application is offered as a Snap.
-Android You may download the .apk from here and install it yourself on your devices.
-Please note that the .apk is built and deployed automatically by Travis CI upon each release to ensure that the code being built is publicly available.</description>
+Desktop The desktop application is offered as a Snap, but you may download binaries from the GitHub releases pages.
+Since version 0.8.0, there are binaries for Linux and Windows.
+Prerequisites for running the GitHub binaries Java 8 or higher should be instaled in order to run the rust-keylock-ui.</description>
     </item>
     
   </channel>

@@ -41,7 +41,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">Download</h1>
+  <h1 class="title">Download and Install</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -50,7 +50,7 @@
   <div class="col-md-12 text-justify content">
     
 
-<p><em>rust-keylock</em> is delivered as a desktop app, an Android app and a shell app.</p>
+<p><em>rust-keylock</em> is delivered as a <strong>desktop app</strong>, an <strong>Android app</strong> and a <strong>shell app</strong>.</p>
 
 <p>Here is how you can install what you are interested in:</p>
 
@@ -58,7 +58,33 @@
 
 <h2 id="desktop">Desktop</h2>
 
-<p>The desktop application is offered as a <a href="https://snapcraft.io/rust-keylock-ui">Snap</a>.</p>
+<p>The desktop application is offered as a <a href="https://snapcraft.io/rust-keylock-ui">Snap</a>, but you may download binaries from the <a href="https://github.com/rust-keylock/rust-keylock-ui/releases/tag/edge">GitHub releases</a> pages.</p>
+
+<p>Since version 0.8.0, there are binaries for Linux and Windows.</p>
+
+<h4 id="prerequisites-for-running-the-github-binaries">Prerequisites for running the GitHub binaries</h4>
+
+<p>Java 8 or higher should be instaled in order to run the rust-keylock-ui.</p>
+
+<ul>
+<li><p>Linux users:</p>
+
+<p>You need to export <code>$LD_LIBRARY_PATH</code> including the directory that contains the <code>libjvm.so</code> before running the application.</p>
+
+<p>E.g.: <code>export LD_LIBRARY_PATH=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server</code></p></li>
+
+<li><p>Windows users:</p>
+
+<p>You need to include the directory that contains the <code>jvm.dll</code> in the <code>PATH</code>.</p>
+
+<p>E.g.: Add in the PATH Variable <code>C:\Program Files\Java\jdk1.8.0_162\jre\bin\server\</code></p></li>
+</ul>
+
+<p>Note1: These prerequisites will not be needed in the future</p>
+
+<p>Note2: These prerequisites <strong>are not needed</strong> when installing via snapcraft.</p>
+
+<hr />
 
 <h2 id="android">Android</h2>
 

@@ -50,6 +50,8 @@
   <div class="col-md-12 text-justify content">
     
 
+<h2 id="general">General</h2>
+
 <p><strong><em>rust-keylock</em></strong> is a password manager and its goals are to be:</p>
 
 <ul>
@@ -70,17 +72,17 @@
 <li>Encryption using <em>AES</em> with <em>CTR</em> mode</li>
 <li>Data integrity checks with SHA3 (Keccak)</li>
 <li>Encrypted bytes blending</li>
-<li>Passwords are kept encrypted in memory</li>
-<li>Encryption keys on runtime are stored in safe, non-swappable memory</li>
-<li>Encryption keys change upon saving, even if the user master password remains the same. This results to different encrypted products, even if the data that is being encrypted is the same.</li>
+<li>During runtime, the passwords are kept encrypted in memory</li>
+<li>During runtime, the encryption keys are stored in safe, non-swappable memory</li>
+<li>Upon saving, the encryption keys change, even if the user master password remains the same. This results to different encrypted products, even if the data that is being encrypted is the same.</li>
 </ul>
 
 <h3 id="data-availability">Data Availability</h3>
 
 <ul>
 <li>Synchronization over Nextcloud or Owncloud</li>
-<li>Automated backups</li>
 <li>Export/import encrypted passwords to/from the filesystem</li>
+<li>Automatic backups</li>
 </ul>
 
 <h3 id="application-portability">Application Portability</h3>
@@ -95,7 +97,7 @@
 <li><a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a>
 
 <ul>
-<li>Using <a href="https://github.com/japaric/xargo">xargo</a> and <a href="https://github.com/java-native-access/jna">JNA</a></li>
+<li>Using the <a href="https://github.com/astonbitecode/j4rs">j4rs crate</a></li>
 </ul></li>
 </ul>
 
@@ -108,8 +110,6 @@
 <p>The library is responsible for the encryption/decryption, storing and retrieving encrypted data from the filesystem, taking backups and synchronizing with rust-keylock instances.</p>
 
 <p>The Editors are driven by the rust-keylock library and are responsible for interacting with the Users and transfer the Users&rsquo; input to the library.</p>
-
-<p>The documentation can be found <a href="https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/">here</a>.</p>
 
   </div>
 </section>

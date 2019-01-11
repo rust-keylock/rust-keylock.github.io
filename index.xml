@@ -6,10 +6,21 @@
     <description>Recent content on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 26 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Announcing v0.7.0</title>
+      <link>https://rust-keylock.github.io/blog/announcing-v0.7.0/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/announcing-v0.7.0/</guid>
+      <description>Release 0.7.0 is out!
+rust-keylock-ui and rust-keylock-android now use the j4rs rust crate for the Java &amp;lt;-&amp;gt; Rust communication, allowing to ditch the JNA dependency. Using j4rs in Android is pretty important for publishing the app in the F-Droid as well, since there is no need to carry the JNA pre-built binaries any more.
+Moreover, ther is now asynchronous support provided by the rust-keylock-lib. It is being used by both rust-keylock-ui and rust-keylock-android.</description>
+    </item>
     
     <item>
       <title>Announcing v0.6.0</title>
@@ -159,22 +170,22 @@ Therefore, apart from the core library repo, the rest are presentation libraries
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/about/rkl/</guid>
-      <description>rust-keylock is a password manager and its goals are to be:
+      <description>General rust-keylock is a password manager and its goals are to be:
  Secure Simple to use Portable Extensible  The core logic is written in Rust, but the presentation/User interaction parts are in different languages.
-Features Security  The data is locked with a user-defined master password, using bcrypt password hashing Encryption using AES with CTR mode Data integrity checks with SHA3 (Keccak) Encrypted bytes blending Passwords are kept encrypted in memory Encryption keys on runtime are stored in safe, non-swappable memory Encryption keys change upon saving, even if the user master password remains the same.</description>
+Features Security  The data is locked with a user-defined master password, using bcrypt password hashing Encryption using AES with CTR mode Data integrity checks with SHA3 (Keccak) Encrypted bytes blending During runtime, the passwords are kept encrypted in memory During runtime, the encryption keys are stored in safe, non-swappable memory Upon saving, the encryption keys change, even if the user master password remains the same.</description>
     </item>
     
     <item>
-      <title>Download</title>
+      <title>Download and Install</title>
       <link>https://rust-keylock.github.io/download/rkl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/download/rkl/</guid>
       <description>rust-keylock is delivered as a desktop app, an Android app and a shell app.
 Here is how you can install what you are interested in:
-Desktop The desktop application is offered as a Snap.
-Android You may download the .apk from here and install it yourself on your devices.
-Please note that the .apk is built and deployed automatically by Travis CI upon each release to ensure that the code being built is publicly available.</description>
+Desktop The desktop application is offered as a Snap, but you may download binaries from the GitHub releases pages.
+Since version 0.8.0, there are binaries for Linux and Windows.
+Prerequisites for running the GitHub binaries Java 8 or higher should be instaled in order to run the rust-keylock-ui.</description>
     </item>
     
   </channel>
