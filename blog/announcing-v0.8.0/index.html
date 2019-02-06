@@ -41,7 +41,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">Announcing v0.7.0</h1>
+  <h1 class="title">Announcing v0.8.0</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -50,11 +50,9 @@
   <div class="col-md-12 text-justify content">
     
 
-<p>Release 0.7.0 is out!</p>
+<p>Release 0.8.0 is out!</p>
 
-<p><code>rust-keylock-ui</code> and <code>rust-keylock-android</code> now use the <a href="https://crates.io/crates/j4rs">j4rs rust crate</a> for the Java &lt;-&gt; Rust communication, allowing to ditch the JNA dependency. Using <code>j4rs</code> in Android is pretty important for publishing the app in the F-Droid as well, since there is no need to carry the JNA pre-built binaries any more.</p>
-
-<p>Moreover, ther is now <em>asynchronous support</em> provided by the <code>rust-keylock-lib</code>. It is being used by both <code>rust-keylock-ui</code> and <code>rust-keylock-android</code>.</p>
+<p>This release includes important security fixes and desktop UI improvements.</p>
 
 <hr />
 
@@ -70,11 +68,21 @@
 
 <h2 id="changelist">Changelist</h2>
 
+<p><a href="https://github.com/rust-keylock/rust-keylock-lib">rust-keylock-lib</a>:</p>
+
 <ul>
-<li>Use <a href="https://crates.io/crates/j4rs">j4rs</a> for Java - Rust communication.</li>
-<li>Implemented AsyncEditor support.</li>
-<li>Using Futures for the nextcloud executor.</li>
-<li>Rust 2018 support.</li>
+<li>Correct the bcrypt key expansion using HKDF.</li>
+<li>Encrypt the SHA3 hash value</li>
+<li>Use the maintained fork of rust-crypto.</li>
+<li>Error messages and logging improvements.</li>
+</ul>
+
+<p><a href="https://github.com/rust-keylock/rust-keylock-ui">rust-keylock-ui</a>:</p>
+
+<ul>
+<li>Windows sizing improvements.</li>
+<li>Several UI enhancements.</li>
+<li>Fixed &ldquo;home not found&rdquo; issue of java logging in windows.</li>
 </ul>
 
   </div>
@@ -93,13 +101,11 @@
 <section id="menu-pane" class="row menu text-center">
   
   
-  <span><a class="menu-item" href="https://rust-keylock.github.io/blog/announcing-v0.6.0/">&lt; prev | </a></span>
+  <span><a class="menu-item" href="https://rust-keylock.github.io/blog/announcing-v0.7.0/">&lt; prev | </a></span>
   
   
   <span><a class="menu-item" href="/blog">blog</a></span>
   
-  
-  <span><a class="menu-item" href="https://rust-keylock.github.io/blog/announcing-v0.8.0/"> | next &gt;</a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="https://rust-keylock.github.io/">home</a></h4>
