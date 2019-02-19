@@ -6,10 +6,20 @@
     <description>Recent content on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AUR availability</title>
+      <link>https://rust-keylock.github.io/blog/aur/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/aur/</guid>
+      <description>Since version 0.8.1, arch users may find the rust-keylock-ui in AUR.
+Enjoy!</description>
+    </item>
     
     <item>
       <title>Announcing v0.8.0</title>
@@ -200,9 +210,10 @@ Features Security  The data is locked with a user-defined master password, using
       <guid>https://rust-keylock.github.io/download/rkl/</guid>
       <description>rust-keylock is delivered as a desktop app, an Android app and a shell app.
 Here is how you can install what you are interested in:
-Desktop The desktop application is offered as a Snap, but you may download binaries from the GitHub releases pages.
-Since version 0.8.0, there are binaries for Linux and Windows.
-Prerequisites for running the GitHub binaries Java 8 or higher should be instaled in order to run the rust-keylock-ui.</description>
+Desktop There are several choices for desktop users:
+Snap Install the rust-keylock-ui from the Snap Store
+Arch User Repository Arch users may find the application in AUR.
+GitHub Binaries may be doqnloaded from the project&amp;rsquo;s GitHub Repository. Since version 0.8.0, there are binaries for Linux and Windows.</description>
     </item>
     
   </channel>

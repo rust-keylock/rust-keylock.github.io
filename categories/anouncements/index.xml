@@ -6,10 +6,20 @@
     <description>Recent content in Anouncements on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/categories/anouncements/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AUR availability</title>
+      <link>https://rust-keylock.github.io/blog/aur/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/aur/</guid>
+      <description>Since version 0.8.1, arch users may find the rust-keylock-ui in AUR.
+Enjoy!</description>
+    </item>
     
     <item>
       <title>Announcing v0.8.0</title>

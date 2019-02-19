@@ -18,9 +18,10 @@
       <guid>https://rust-keylock.github.io/download/rkl/</guid>
       <description>rust-keylock is delivered as a desktop app, an Android app and a shell app.
 Here is how you can install what you are interested in:
-Desktop The desktop application is offered as a Snap, but you may download binaries from the GitHub releases pages.
-Since version 0.8.0, there are binaries for Linux and Windows.
-Prerequisites for running the GitHub binaries Java 8 or higher should be instaled in order to run the rust-keylock-ui.</description>
+Desktop There are several choices for desktop users:
+Snap Install the rust-keylock-ui from the Snap Store
+Arch User Repository Arch users may find the application in AUR.
+GitHub Binaries may be doqnloaded from the project&amp;rsquo;s GitHub Repository. Since version 0.8.0, there are binaries for Linux and Windows.</description>
     </item>
     
   </channel>

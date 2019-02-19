@@ -58,31 +58,27 @@
 
 <h2 id="desktop">Desktop</h2>
 
-<p>The desktop application is offered as a <a href="https://snapcraft.io/rust-keylock-ui">Snap</a>, but you may download binaries from the <a href="https://github.com/rust-keylock/rust-keylock-ui/releases/latest">GitHub releases</a> pages.</p>
+<p>There are several choices for desktop users:</p>
 
-<p>Since version 0.8.0, there are binaries for Linux and Windows.</p>
+<h3 id="snap">Snap</h3>
 
-<h4 id="prerequisites-for-running-the-github-binaries">Prerequisites for running the GitHub binaries</h4>
+<p>Install the rust-keylock-ui from the <a href="https://snapcraft.io/rust-keylock-ui">Snap Store</a></p>
 
-<p>Java 8 or higher should be instaled in order to run the rust-keylock-ui.</p>
+<h3 id="arch-user-repository">Arch User Repository</h3>
+
+<p>Arch users may find the application in <a href="https://aur.archlinux.org/packages/rust-keylock-ui/">AUR</a>.</p>
+
+<h3 id="github">GitHub</h3>
+
+<p>Binaries may be doqnloaded from the project&rsquo;s <a href="https://github.com/rust-keylock/rust-keylock-ui/releases/latest">GitHub Repository</a>. Since version 0.8.0, there are binaries for Linux and Windows.</p>
+
+<p><strong>Notes for running the GitHub binaries</strong></p>
 
 <ul>
-<li><p>Linux users:</p>
+<li><p>Java 8 or higher should be instaled.</p></li>
 
-<p>You need to export <code>$LD_LIBRARY_PATH</code> including the directory that contains the <code>libjvm.so</code> before running the application.</p>
-
-<p>E.g.: <code>export LD_LIBRARY_PATH=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server</code></p></li>
-
-<li><p>Windows users:</p>
-
-<p>You need to include the directory that contains the <code>jvm.dll</code> in the <code>PATH</code>.</p>
-
-<p>E.g.: Add in the PATH Variable <code>C:\Program Files\Java\jdk1.8.0_162\jre\bin\server\</code></p></li>
+<li><p>After downloading and untating / unzipping, just run the <code>rust-keylock-ui</code> executable.</p></li>
 </ul>
-
-<p>Note1: These prerequisites will not be needed in the future</p>
-
-<p>Note2: These prerequisites <strong>are not needed</strong> when installing via snapcraft.</p>
 
 <hr />
 
@@ -136,7 +132,7 @@
 <footer class="row text-center footer">
   <hr />
   
-  <h6 class="text-center copyright">Free software, licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>. The rust-keylock developers 2019</h6>
+  <h6 class="text-center copyright">Free software, licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>. The rust-keylock developers 2017-2019</h6>
   
   <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
   

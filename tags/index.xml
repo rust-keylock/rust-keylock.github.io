@@ -6,7 +6,7 @@
     <description>Recent content in Tags on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 06 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,7 @@
     <item>
       <title>Anouncement</title>
       <link>https://rust-keylock.github.io/tags/anouncement/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/tags/anouncement/</guid>
       <description></description>
@@ -50,7 +50,7 @@
     <item>
       <title>Password Manager</title>
       <link>https://rust-keylock.github.io/tags/password-manager/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/tags/password-manager/</guid>
       <description></description>
@@ -59,7 +59,7 @@
     <item>
       <title>Rust</title>
       <link>https://rust-keylock.github.io/tags/rust/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/tags/rust/</guid>
       <description></description>
@@ -68,7 +68,7 @@
     <item>
       <title>Secure</title>
       <link>https://rust-keylock.github.io/tags/secure/</link>
-      <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/tags/secure/</guid>
       <description></description>
