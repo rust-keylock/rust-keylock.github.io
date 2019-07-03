@@ -6,10 +6,35 @@
     <description>Recent content on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Announcing v0.9.0</title>
+      <link>https://rust-keylock.github.io/blog/announcing-v0.9.0/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/announcing-v0.9.0/</guid>
+      <description> Release 0.9.0 is out!
+The main feature of this release is the support for synchronization via Dropbox accounts!
+Affected repositories rust-keylock-lib
+rust-keylock-ui
+rust-keylock-android
+Changelist  Synchronization via Dropbox. By using rust-bcrypt, we were able to ditch the unmaintained rust-crypto. Increased the bcrypt cost. Applied clippy proposals. Using the latest j4rs and its maven dependencies download-during-build feature, the size of the rust-keylock-ui crate got much smaller.  </description>
+    </item>
+    
+    <item>
+      <title>Synchronizing with Dropbox</title>
+      <link>https://rust-keylock.github.io/wiki/sync-with-dropbox/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/wiki/sync-with-dropbox/</guid>
+      <description>Since version 0.9.0, the rust-keylock has the ability to synchronize passwords and data using Dropbox.
+Setup In order to allow the rust-keylock to access your Dropbox account, you should create a Dropbox authentication token.
+The following steps should be done once per device. For example, if you use rust-keylock in your desktop and in your Android device, you should acquire one authentication token for your desktop and one for your Android phone.</description>
+    </item>
     
     <item>
       <title>Announcing v0.8.2</title>
@@ -228,7 +253,7 @@ Here is how you can install what you are interested in:
 Desktop There are several choices for desktop users:
 Snap Install the rust-keylock-ui from the Snap Store
 Arch User Repository Arch users may find the application in AUR.
-GitHub Binaries may be doqnloaded from the project&amp;rsquo;s GitHub Repository. Since version 0.8.0, there are binaries for Linux and Windows.</description>
+Cargo Provided that Rust and Java 11 or higher are installed in your system, you may use cargo to build and install rust-keylock-ui:</description>
     </item>
     
   </channel>

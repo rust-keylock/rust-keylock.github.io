@@ -6,10 +6,21 @@
     <description>Recent content in Synchronization on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 06 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/tags/synchronization/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Synchronizing with Dropbox</title>
+      <link>https://rust-keylock.github.io/wiki/sync-with-dropbox/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/wiki/sync-with-dropbox/</guid>
+      <description>Since version 0.9.0, the rust-keylock has the ability to synchronize passwords and data using Dropbox.
+Setup In order to allow the rust-keylock to access your Dropbox account, you should create a Dropbox authentication token.
+The following steps should be done once per device. For example, if you use rust-keylock in your desktop and in your Android device, you should acquire one authentication token for your desktop and one for your Android phone.</description>
+    </item>
     
     <item>
       <title>Synchronizing with Nextcloud</title>
