@@ -63,26 +63,30 @@
 
 <p>The core logic is written in <a href="https://www.rust-lang.org">Rust</a>, but the presentation/User interaction parts are in different languages.</p>
 
+<h2 id="warning">Warning</h2>
+
+<p>The project has not yet received any formal/official security reviews. Use it at your own risk.</p>
+
 <h2 id="features">Features</h2>
 
 <h3 id="security">Security</h3>
 
 <ul>
-<li>The data is locked with a user-defined master password, using <em>bcrypt</em> password hashing</li>
-<li>Encryption using <em>AES</em> with <em>CTR</em> mode</li>
-<li>Data integrity checks with SHA3 (Keccak)</li>
-<li>Encrypted bytes blending</li>
-<li>During runtime, the passwords are kept encrypted in memory</li>
-<li>During runtime, the encryption keys are stored in safe, non-swappable memory</li>
+<li>The data is locked with a user-defined master password, using <em>bcrypt</em> password hashing.</li>
+<li>Encryption using <em>AES</em> with <em>CTR</em> mode.</li>
+<li>Data integrity checks with SHA3 (Keccak).</li>
+<li>During runtime, the passwords are kept encrypted in memory.</li>
+<li>During runtime, the encryption keys are stored in safe, non-swappable memory.</li>
 <li>Upon saving, the encryption keys change, even if the user master password remains the same. This results to different encrypted products, even if the data that is being encrypted is the same.</li>
 </ul>
 
 <h3 id="data-availability">Data Availability</h3>
 
 <ul>
-<li>Synchronization over Nextcloud or Owncloud</li>
-<li>Export/import encrypted passwords to/from the filesystem</li>
-<li>Automatic backups</li>
+<li>Synchronization over Dropbox.</li>
+<li>Synchronization over Nextcloud or Owncloud.</li>
+<li>Export/import encrypted passwords to/from the filesystem.</li>
+<li>Automatic backups.</li>
 </ul>
 
 <h3 id="application-portability">Application Portability</h3>
@@ -92,24 +96,24 @@
 <li><a href="https://github.com/rust-keylock/rust-keylock-ui">JavaFX implementation</a>.
 
 <ul>
-<li>Using the <a href="https://github.com/astonbitecode/j4rs">j4rs crate</a></li>
+<li>Using the <a href="https://github.com/astonbitecode/j4rs">j4rs crate</a>.</li>
 </ul></li>
-<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a>
+<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a>.
 
 <ul>
-<li>Using the <a href="https://github.com/astonbitecode/j4rs">j4rs crate</a></li>
+<li>Using the <a href="https://github.com/astonbitecode/j4rs">j4rs crate</a>.</li>
 </ul></li>
 </ul>
 
 <p>See how to <a href="https://rust-keylock.github.io/download/rkl/">download and install</a>.</p>
 
-<h2 id="the-rust-keylock-library-and-the-editors">The <em>rust-keylock</em> library and the <em>Editors</em></h2>
+<h2 id="the-rust-keylock-library-and-the-editor-apps">The <em>rust-keylock</em> library and the <em>editor apps</em></h2>
 
-<p>The idea is that the <a href="https://github.com/rust-keylock/rust-keylock-lib">rust-keylock library</a> handles the core application logic, whereas the interaction with the <em>rust-keylock</em> users is done via libraries that have presentation responsibilities (aka <a href="https://rust-keylock.github.io/rust-keylock-lib/rust_keylock/trait.Editor.html">Editors</a>).</p>
+<p>The <a href="https://github.com/rust-keylock/rust-keylock-lib">rust-keylock library</a> handles the core application logic, whereas the interaction with the <em>rust-keylock</em> users is done via apps that have presentation responsibilities.</p>
 
-<p>The library is responsible for the encryption/decryption, storing and retrieving encrypted data from the filesystem, taking backups and synchronizing with rust-keylock instances.</p>
+<p>The core library manages the whole lifecycle of the application, including encryption/decryption, synchronization, storing and retrieving encrypted data from the filesystem etc.</p>
 
-<p>The Editors are driven by the rust-keylock library and are responsible for interacting with the Users and transfer the Users&rsquo; input to the library.</p>
+<p>The Editors are driven by the rust-keylock library and are responsible for interacting with the Users, transfering the Users&rsquo; input to the library.</p>
 
   </div>
 </section>
@@ -138,7 +142,7 @@
 <footer class="row text-center footer">
   <hr />
   
-  <h6 class="text-center copyright">Free software, licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>. The rust-keylock developers 2017-2019</h6>
+  <h6 class="text-center copyright">Free software, licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>. The rust-keylock developers 2017-2020</h6>
   
   <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
   

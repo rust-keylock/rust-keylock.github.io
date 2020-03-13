@@ -18,7 +18,8 @@
       <guid>https://rust-keylock.github.io/about/rkl/</guid>
       <description>General rust-keylock is a password manager and its goals are to be:
  Secure Simple to use Portable Extensible  The core logic is written in Rust, but the presentation/User interaction parts are in different languages.
-Features Security  The data is locked with a user-defined master password, using bcrypt password hashing Encryption using AES with CTR mode Data integrity checks with SHA3 (Keccak) Encrypted bytes blending During runtime, the passwords are kept encrypted in memory During runtime, the encryption keys are stored in safe, non-swappable memory Upon saving, the encryption keys change, even if the user master password remains the same.</description>
+Warning The project has not yet received any formal/official security reviews. Use it at your own risk.
+Features Security  The data is locked with a user-defined master password, using bcrypt password hashing. Encryption using AES with CTR mode.</description>
     </item>
     
   </channel>

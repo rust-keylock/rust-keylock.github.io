@@ -6,10 +6,22 @@
     <description>Recent content on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Announcing v0.11.0</title>
+      <link>https://rust-keylock.github.io/blog/announcing-v0.11.0/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/announcing-v0.11.0/</guid>
+      <description>Release 0.11.0 is out!
+The first highlight of this release, is that the Desktop application is implemented using JavaFX instead of ScalaFX. Along with that, there were user experience improvements and UI fixes.
+The second highlight is that we recovered the support for older Android versions. Therefore, the minimum supported API level is 16 (4.1.2 is tested as a minimum version).
+Changelist  UI now uses plain JavaFX instead of ScalaFX.</description>
+    </item>
     
     <item>
       <title>Announcing v0.9.0</title>
@@ -227,7 +239,7 @@ rust-keylock-android</description>
       <description>What is the rust-keylock? rust-keylock is a password manager.
 What is the license? rust-keylock is a free software, licensed under GPLv3.
 Where is the code? The code is hosted on GitHub.
-Why so many GitHub repos? The idea is that there is a core rust-keylock library that handles the core application logic, whereas the interaction with the Users is done via libraries that have presentation responsibilities.
+Why so many repos? The idea is that there is a core rust-keylock library that handles the core application logic, whereas the interaction with the Users is done via libraries and apps that have presentation responsibilities.
 Therefore, apart from the core library repo, the rest are presentation libraries.</description>
     </item>
     
@@ -239,7 +251,8 @@ Therefore, apart from the core library repo, the rest are presentation libraries
       <guid>https://rust-keylock.github.io/about/rkl/</guid>
       <description>General rust-keylock is a password manager and its goals are to be:
  Secure Simple to use Portable Extensible  The core logic is written in Rust, but the presentation/User interaction parts are in different languages.
-Features Security  The data is locked with a user-defined master password, using bcrypt password hashing Encryption using AES with CTR mode Data integrity checks with SHA3 (Keccak) Encrypted bytes blending During runtime, the passwords are kept encrypted in memory During runtime, the encryption keys are stored in safe, non-swappable memory Upon saving, the encryption keys change, even if the user master password remains the same.</description>
+Warning The project has not yet received any formal/official security reviews. Use it at your own risk.
+Features Security  The data is locked with a user-defined master password, using bcrypt password hashing. Encryption using AES with CTR mode.</description>
     </item>
     
     <item>
@@ -253,7 +266,7 @@ Here is how you can install what you are interested in:
 Desktop There are several choices for desktop users:
 Snap Install the rust-keylock-ui from the Snap Store
 Arch User Repository Arch users may find the application in AUR.
-Cargo Provided that Rust and Java 11 or higher are installed in your system, you may use cargo to install:</description>
+Cargo Provided that Rust and Java 11 or higher are installed in your system, you may use cargo to build and install rust-keylock-ui:</description>
     </item>
     
   </channel>

@@ -6,10 +6,22 @@
     <description>Recent content in Password Manager on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/tags/password-manager/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Announcing v0.11.0</title>
+      <link>https://rust-keylock.github.io/blog/announcing-v0.11.0/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/announcing-v0.11.0/</guid>
+      <description>Release 0.11.0 is out!
+The first highlight of this release, is that the Desktop application is implemented using JavaFX instead of ScalaFX. Along with that, there were user experience improvements and UI fixes.
+The second highlight is that we recovered the support for older Android versions. Therefore, the minimum supported API level is 16 (4.1.2 is tested as a minimum version).
+Changelist  UI now uses plain JavaFX instead of ScalaFX.</description>
+    </item>
     
     <item>
       <title>Announcing v0.9.0</title>

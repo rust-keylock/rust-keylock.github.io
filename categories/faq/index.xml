@@ -20,7 +20,7 @@
       <description>What is the rust-keylock? rust-keylock is a password manager.
 What is the license? rust-keylock is a free software, licensed under GPLv3.
 Where is the code? The code is hosted on GitHub.
-Why so many GitHub repos? The idea is that there is a core rust-keylock library that handles the core application logic, whereas the interaction with the Users is done via libraries that have presentation responsibilities.
+Why so many repos? The idea is that there is a core rust-keylock library that handles the core application logic, whereas the interaction with the Users is done via libraries and apps that have presentation responsibilities.
 Therefore, apart from the core library repo, the rest are presentation libraries.</description>
     </item>
     

@@ -21,7 +21,7 @@ Here is how you can install what you are interested in:
 Desktop There are several choices for desktop users:
 Snap Install the rust-keylock-ui from the Snap Store
 Arch User Repository Arch users may find the application in AUR.
-Cargo Provided that Rust and Java 11 or higher are installed in your system, you may use cargo to install:</description>
+Cargo Provided that Rust and Java 11 or higher are installed in your system, you may use cargo to build and install rust-keylock-ui:</description>
     </item>
     
   </channel>
