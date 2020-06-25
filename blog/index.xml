@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on rust-keylock</title>
@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on rust-keylock</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://rust-keylock.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Announcing v0.12.0</title>
+      <link>https://rust-keylock.github.io/blog/announcing-v0.12.0/</link>
+      <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rust-keylock.github.io/blog/announcing-v0.12.0/</guid>
+      <description>Release 0.12.0 is out!
+It includes two new features:
+ Passphrases generation using Diceware. Passwords health check against pwned passwords list, leveraging the k-anonimity API.   Changelist  Check passwords health functionality. Diceware: Generate passphrases. Applying password entries filter with a button (or hitting enter) in Desktop and Android. Upgraded third party libraries. Bugfixing  </description>
+    </item>
     
     <item>
       <title>Announcing v0.11.0</title>
@@ -20,7 +31,7 @@
       <description>Release 0.11.0 is out!
 The first highlight of this release, is that the Desktop application is implemented using JavaFX instead of ScalaFX. Along with that, there were user experience improvements and UI fixes.
 The second highlight is that we recovered the support for older Android versions. Therefore, the minimum supported API level is 16 (4.1.2 is tested as a minimum version).
-Changelist  UI now uses plain JavaFX instead of ScalaFX.</description>
+ Changelist  UI now uses plain JavaFX instead of ScalaFX.</description>
     </item>
     
     <item>
@@ -29,9 +40,9 @@ Changelist  UI now uses plain JavaFX instead of ScalaFX.</description>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/blog/announcing-v0.9.0/</guid>
-      <description> Release 0.9.0 is out!
+      <description>Release 0.9.0 is out!
 The main feature of this release is the support for synchronization via Dropbox accounts!
-Affected repositories rust-keylock-lib
+ Affected repositories rust-keylock-lib
 rust-keylock-ui
 rust-keylock-android
 Changelist  Synchronization via Dropbox. By using rust-bcrypt, we were able to ditch the unmaintained rust-crypto. Increased the bcrypt cost. Applied clippy proposals. Using the latest j4rs and its maven dependencies download-during-build feature, the size of the rust-keylock-ui crate got much smaller.  </description>
@@ -45,7 +56,7 @@ Changelist  Synchronization via Dropbox. By using rust-bcrypt, we were able to d
       <guid>https://rust-keylock.github.io/blog/announcing-v0.8.2/</guid>
       <description>Release 0.8.2 is out!
 This release includes important nextcloud sync fixes and core implementation improvements, allowing to move forward to the next release that is planned to contain synchronization with Dropbox accounts!
-Affected repositories rust-keylock-lib
+ Affected repositories rust-keylock-lib
 rust-keylock-ui
 Changelist rust-keylock-lib:
  Corrected nextcloud sync issues. Use tokio for tasks and loops where possible. Do not allow manual nextcloud synchronization.  rust-keylock-ui:
@@ -68,9 +79,9 @@ Enjoy!</description>
       <pubDate>Wed, 06 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/blog/announcing-v0.8.0/</guid>
-      <description> Release 0.8.0 is out!
+      <description>Release 0.8.0 is out!
 This release includes important security fixes and desktop UI improvements.
-Affected repositories rust-keylock-lib
+ Affected repositories rust-keylock-lib
 rust-keylock-shell
 rust-keylock-android
 rust-keylock-ui
@@ -96,8 +107,8 @@ Moreover, ther is now asynchronous support provided by the rust-keylock-lib. It 
       <pubDate>Tue, 26 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/blog/announcing-v0.6.0/</guid>
-      <description> Release 0.6.0 is out!
-Affected repositories rust-keylock-lib
+      <description>Release 0.6.0 is out!
+ Affected repositories rust-keylock-lib
 rust-keylock-shell
 rust-keylock-android
 rust-keylock-ui
@@ -112,15 +123,15 @@ Changelist Usability improvements:
       
       <guid>https://rust-keylock.github.io/blog/announcing-v0.5.0/</guid>
       <description>Release 0.5.0 is out!
-Affected repositories rust-keylock-lib
+ Affected repositories rust-keylock-lib
 rust-keylock-shell
 rust-keylock-android
 rust-keylock-ui
-Changelist  Implemented automated backups locally
- Added Warning when about to overwrite an existing file while exporting locally
- The desctiprion of the password entries is now a text area
-  Bugfixes  Fix: Exception in thread &amp;ldquo;JavaFX Application Thread&amp;rdquo; java.lang.NumberFormatException: For input string: &amp;ldquo;&amp;rdquo;
- Stop the inactivity timer after first time that the user is logged out because of inactivity</description>
+Changelist   Implemented automated backups locally
+  Added Warning when about to overwrite an existing file while exporting locally
+  The desctiprion of the password entries is now a text area
+  Bugfixes   Fix: Exception in thread &amp;ldquo;JavaFX Application Thread&amp;rdquo; java.lang.NumberFormatException: For input string: &amp;quot;&amp;rdquo;
+  Stop the inactivity timer after first time that the user is logged out because of inactivity</description>
     </item>
     
     <item>
@@ -129,18 +140,18 @@ Changelist  Implemented automated backups locally
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/blog/announcing-v0.4.0/</guid>
-      <description> Release 0.4.0 is out!
-Affected repositories rust-keylock-lib
+      <description>Release 0.4.0 is out!
+ Affected repositories rust-keylock-lib
 rust-keylock-shell
 rust-keylock-android
 rust-keylock-ui
-Changelist  Synchronize with (Next/Own)cloud
- Using internal configuration and added configuration dialogs
- Use sec_str in Windows as well
-  Bugfixes  Fixed wrong AES key size
- Fixed Windows shell cleaning
- Fixed focus lost when applying filter on Android
- Fixed showing large texts on alerts/messages
+Changelist   Synchronize with (Next/Own)cloud
+  Using internal configuration and added configuration dialogs
+  Use sec_str in Windows as well
+  Bugfixes   Fixed wrong AES key size
+  Fixed Windows shell cleaning
+  Fixed focus lost when applying filter on Android
+  Fixed showing large texts on alerts/messages
   Code and infrastructure improvements  Sign the apk files that are published by Travis CI  </description>
     </item>
     
@@ -151,17 +162,17 @@ Changelist  Synchronize with (Next/Own)cloud
       
       <guid>https://rust-keylock.github.io/blog/announcing-v0.3.0/</guid>
       <description>Release 0.3.0 is out!
-Affected repositories rust-keylock-lib
+ Affected repositories rust-keylock-lib
 rust-keylock-shell
 rust-keylock-android
 rust-keylock-ui
-Changelist  Data Integrity checks:
+Changelist   Data Integrity checks:
 Protection against data corruption using SHA-3 hashing with 512 bits output.
- Filtering mechanism:
+  Filtering mechanism:
 Ability to filter the list of passwords to improve the user experience.
- Timeout mechanism:
+  Timeout mechanism:
 Enhance security by automatically locking after inactivity period.
-  Bugfixes  Fixed merging when importing entries:
+  Bugfixes   Fixed merging when importing entries:
 The identical entries were not recognized, resulting to duplicate entries after importing</description>
     </item>
     
@@ -171,11 +182,12 @@ The identical entries were not recognized, resulting to duplicate entries after 
       <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://rust-keylock.github.io/blog/next-release-contents-0-3-0/</guid>
-      <description> Upcoming release contents
-This post is about announcing what the next release of rust-keylock will include.
-New features  Inactivity timeout mechanism Filtering mechanism
+      <description>Upcoming release contents
+ This post is about announcing what the next release of rust-keylock will include.
+New features   Inactivity timeout mechanism
+  Filtering mechanism
 Ability to filter the list of passwords to improve the user experience when the saved passwords are too many.
- Integrity checks
+  Integrity checks
 Use cryptographic checksums to imply about stored data integrity
   Code and infrastructure improvements  Replace the deprecated library rustc_serialize with serde Provide release artifacts for all the rust-keylock subprojects in GitHub  Plus &amp;hellip; Bugfixes </description>
     </item>
@@ -187,11 +199,11 @@ Use cryptographic checksums to imply about stored data integrity
       
       <guid>https://rust-keylock.github.io/blog/announcing-v0.2.1/</guid>
       <description>Release 0.2.1 is out!
-Affected repositories rust-keylock-lib
+ Affected repositories rust-keylock-lib
 rust-keylock-shell
 rust-keylock-android
-Changelist  Handle decryption errors during the initialization and don&amp;rsquo;t panic Change the name of the shell binary from rust_keylock to rust-keylock Keep the passwords encrypted in the memory Keep the encryption/decryption keys in safe memory location  Bugfixes  rust-keylock-lib
- Panic when providing a very big number during authorization: panicked at &amp;lsquo;assertion failed: salt.len() == 16&amp;rsquo;  rust-keylock-android</description>
+Changelist  Handle decryption errors during the initialization and don&amp;rsquo;t panic Change the name of the shell binary from rust_keylock to rust-keylock Keep the passwords encrypted in the memory Keep the encryption/decryption keys in safe memory location  Bugfixes   rust-keylock-lib
+  Panic when providing a very big number during authorization: panicked at &amp;lsquo;assertion failed: salt.len() == 16&amp;rsquo;</description>
     </item>
     
     <item>
@@ -201,7 +213,7 @@ Changelist  Handle decryption errors during the initialization and don&amp;rsquo
       
       <guid>https://rust-keylock.github.io/blog/announcing-v0.1.0/</guid>
       <description>The first release of rust-keylock is out!
-Release links: rust-keylock-lib
+ Release links: rust-keylock-lib
 rust-keylock-shell
 rust-keylock-android</description>
     </item>

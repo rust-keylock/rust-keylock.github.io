@@ -1,6 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://rust-keylock.github.io/blog/announcing-v0.12.0/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/tags/anouncement/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/categories/anouncements/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/blog/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/categories/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/tags/password-manager/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/tags/rust/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/tags/secure/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/tags/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://rust-keylock.github.io/blog/announcing-v0.11.0/</loc>
@@ -13,7 +63,27 @@
   </url>
   
   <url>
+    <loc>https://rust-keylock.github.io/tags/synchronization/</loc>
+    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rust-keylock.github.io/wiki/sync-with-dropbox/</loc>
+    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/tags/wiki/</loc>
+    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/categories/wiki/</loc>
+    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/wiki/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -83,13 +153,18 @@
   </url>
   
   <url>
-    <loc>https://rust-keylock.github.io/tags/about/</loc>
-    <priority>0</priority>
+    <loc>https://rust-keylock.github.io/tags/faq/</loc>
+    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rust-keylock.github.io/categories/about/</loc>
-    <priority>0</priority>
+    <loc>https://rust-keylock.github.io/categories/faq/</loc>
+    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/faq/</loc>
+    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -97,42 +172,23 @@
   </url>
   
   <url>
+    <loc>https://rust-keylock.github.io/tags/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://rust-keylock.github.io/categories/about/</loc>
+  </url>
+  
+  <url>
     <loc>https://rust-keylock.github.io/about/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/tags/anouncement/</loc>
-    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/categories/anouncements/</loc>
-    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/blog/</loc>
-    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/categories/</loc>
-    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rust-keylock.github.io/tags/download/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://rust-keylock.github.io/categories/download/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -141,79 +197,6 @@
   
   <url>
     <loc>https://rust-keylock.github.io/download/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/tags/faq/</loc>
-    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/categories/faq/</loc>
-    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/faq/</loc>
-    <lastmod>2017-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/tags/password-manager/</loc>
-    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/tags/rust/</loc>
-    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/tags/secure/</loc>
-    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/tags/synchronization/</loc>
-    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/tags/</loc>
-    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/tags/wiki/</loc>
-    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/categories/wiki/</loc>
-    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/wiki/</loc>
-    <lastmod>2019-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://rust-keylock.github.io/</loc>
-    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

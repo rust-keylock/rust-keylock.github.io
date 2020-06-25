@@ -10,20 +10,19 @@
 <meta name="description" content="rust-keylock Password Manager">
 <meta name="keywords" content="password,manager,rust,secure">
 
-<base href="https://rust-keylock.github.io/">
+<title>
+  rust-keylock - F.A.Q. 
+</title>
 
-<title>rust-keylock</title>
-
-<meta name="generator" content="Hugo 0.21-DEV" />
-
-
+<meta name="generator" content="Hugo 0.72.0" />
 
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 <link rel="stylesheet" href="https://rust-keylock.github.io/css/main.css">
+<link rel="stylesheet" href="https://rust-keylock.github.io/css/custom.css">
 
 
 
@@ -49,57 +48,33 @@
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-
-<h3 id="what-is-the-rust-keylock">What is the rust-keylock?</h3>
-
+    <h3 id="what-is-the-rust-keylock">What is the rust-keylock?</h3>
 <p>rust-keylock is a password manager.</p>
-
 <h3 id="what-is-the-license">What is the license?</h3>
-
 <p>rust-keylock is a free software, licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>.</p>
-
 <h3 id="where-is-the-code">Where is the code?</h3>
-
 <p>The code is hosted on <a href="https://github.com/rust-keylock">GitHub</a>.</p>
-
 <h3 id="why-so-many-repos">Why so many repos?</h3>
-
 <p>The idea is that there is a core <a href="https://github.com/rust-keylock/rust-keylock-lib">rust-keylock library</a> that handles the core application logic, whereas the interaction with the Users is done via libraries and apps that have presentation responsibilities.</p>
-
 <p>Therefore, apart from the core library repo, the rest are presentation libraries.</p>
-
 <h3 id="which-presentation-library-should-i-choose">Which presentation library should I choose?</h3>
-
 <p>Use:</p>
-
 <ul>
 <li>the <a href="https://github.com/rust-keylock/rust-keylock-ui">rust-keylock-ui</a> in a Desktop UI environment</li>
 <li>the <a href="https://github.com/rust-keylock/rust-keylock-android">rust-keylock-android</a> in Android devices</li>
 <li>the <a href="https://github.com/rust-keylock/rust-keylock-shell">rust-keylock-shell</a> for the command line</li>
 </ul>
-
 <h3 id="what-platforms-are-supported">What platforms are supported?</h3>
-
 <p>Currently the supported platforms are linux-x86-64, windows-x86-64 and android-arm.</p>
-
 <h3 id="is-it-stable">Is it stable?</h3>
-
 <p>The rust-keylock is a work in progress and as long as the latest version is 0.x&hellip; you should expect possible issues.</p>
-
 <p>Despite that, the applicatin does its job fine and many of us use it daily.</p>
-
 <p>However, please note that even if many measurements have been taken regarding security, the project has not yet received any formal / official security reviews yet.</p>
-
 <p>In case that you find any problem, please inform us by opening an issue <a href="https://github.com/rust-keylock/rust-keylock-lib/issues">here</a>.</p>
-
-<h3 id="how-can-i-download-install-it">How can I download/install it?</h3>
-
+<h3 id="how-can-i-downloadinstall-it">How can I download/install it?</h3>
 <p>Please see <a href="https://rust-keylock.github.io/download/rkl/">here</a>.</p>
-
 <p>You may also build the binaries yourself, following the instructions in the GitHub repos.</p>
-
 <h3 id="where-can-i-ask-questions">Where can I ask questions?</h3>
-
 <p>You may open an issue on <a href="https://github.com/rust-keylock/rust-keylock-lib/issues">GitHub</a>.</p>
 
   </div>
@@ -131,8 +106,11 @@
   
   <h6 class="text-center copyright">Free software, licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>. The rust-keylock developers 2017-2020</h6>
   
-  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo  v0.72.0</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
   
+      
+      <h6><a href="" aria-label="RSS Feed"><i class="fas fa-rss" aria-hidden="true"></i></a></h6>
+    
   
 </footer>
 
@@ -143,16 +121,21 @@
 
 
 
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-84657729-2', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-84657729-2', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
 

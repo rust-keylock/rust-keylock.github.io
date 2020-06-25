@@ -10,20 +10,19 @@
 <meta name="description" content="rust-keylock Password Manager">
 <meta name="keywords" content="password,manager,rust,secure">
 
-<base href="https://rust-keylock.github.io/">
+<title>
+  rust-keylock - Synchronizing with Nextcloud 
+</title>
 
-<title>rust-keylock</title>
-
-<meta name="generator" content="Hugo 0.21-DEV" />
-
-
+<meta name="generator" content="Hugo 0.72.0" />
 
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 <link rel="stylesheet" href="https://rust-keylock.github.io/css/main.css">
+<link rel="stylesheet" href="https://rust-keylock.github.io/css/custom.css">
 
 
 
@@ -49,43 +48,37 @@
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-
-<p>Since version 0.4.0, the rust-keylock has the ability to synchronize passwords and data over a Nextcloud (or Owncloud) server.</p>
-
+    <p>Since version 0.4.0, the rust-keylock has the ability to synchronize passwords and data over a Nextcloud (or Owncloud) server.</p>
 <h3 id="setup">Setup</h3>
-
 <p>From the main menu, navigate to the <strong>Configuration</strong> and fill the fields.</p>
-
 <p>The <em>Server URL</em>, the <em>Username</em> and the <em>Password</em> should be filled in order to assume correct configuration.</p>
-
 <h3 id="self-signed-certificates">Self-signed certificates</h3>
-
 <p>If your Nextcloud server is accessed via HTTPS using a self signed certificate, you need to:</p>
-
 <ol>
-<li><p>Check the <strong>self-signed certificate</strong> checkbox in the rust-keylock &ldquo;<strong>Configuration</strong>&rdquo; view.</p></li>
-
-<li><p>In Firefox, assuming that you have already accepted the certificate, browse to your Nextcloud page and click on the green lock on the left side of the address bar and then click &ldquo;<strong>More Information</strong>&ldquo;</p></li>
-
-<li><p>On the &ldquo;<strong>Security</strong>&rdquo; tab of the dialog that pops up, click &ldquo;<strong>View Certificate</strong>&ldquo;</p></li>
-
-<li><p>On the new dialog that appears, go to the &ldquo;<strong>Details</strong>&rdquo; tab and click &ldquo;<strong>Export</strong>&ldquo;</p></li>
-
-<li><p>Select X.509 certificate (PEM) and save the file as <strong>cacert.pem</strong></p>
-
-<p><em>Note: it is important to name the exported file exactly like that</em></p></li>
-
-<li><p>Depending where you run the rust-keylock, you need to copy the exported file to the following locations:</p>
-
-<h4 id="linux-home-rust-keylock-etc-ssl-certs">Linux: <code>$HOME/.rust-keylock/etc/ssl/certs</code></h4>
-
-<h4 id="windows-homepath-rust-keylock-etc-ssl-certs">Windows: <code>%HOMEPATH%\.rust-keylock\etc\ssl\certs</code></h4>
-
-<h4 id="android-download-rust-keylock-etc-ssl-certs">Android: <code>Download/rust-keylock/etc/ssl/certs</code></h4></li>
+<li>
+<p>Check the <strong>self-signed certificate</strong> checkbox in the rust-keylock &ldquo;<strong>Configuration</strong>&rdquo; view.</p>
+</li>
+<li>
+<p>In Firefox, assuming that you have already accepted the certificate, browse to your Nextcloud page and click on the green lock on the left side of the address bar and then click &ldquo;<strong>More Information</strong>&rdquo;</p>
+</li>
+<li>
+<p>On the &ldquo;<strong>Security</strong>&rdquo; tab of the dialog that pops up, click &ldquo;<strong>View Certificate</strong>&rdquo;</p>
+</li>
+<li>
+<p>On the new dialog that appears, go to the &ldquo;<strong>Details</strong>&rdquo; tab and click &ldquo;<strong>Export</strong>&rdquo;</p>
+</li>
+<li>
+<p>Select X.509 certificate (PEM) and save the file as <strong>cacert.pem</strong></p>
+<p><em>Note: it is important to name the exported file exactly like that</em></p>
+</li>
+<li>
+<p>Depending where you run the rust-keylock, you need to copy the exported file to the following locations:</p>
+<h4 id="linux-homerust-keylocketcsslcerts">Linux: <code>$HOME/.rust-keylock/etc/ssl/certs</code></h4>
+<h4 id="windows-homepathrust-keylocketcsslcerts">Windows: <code>%HOMEPATH%\.rust-keylock\etc\ssl\certs</code></h4>
+<h4 id="android-downloadrust-keylocketcsslcerts">Android: <code>Download/rust-keylock/etc/ssl/certs</code></h4>
+</li>
 </ol>
-
 <h3 id="synchronizing">Synchronizing</h3>
-
 <p>Once a Nextcloud server is correctly setup, a background task will be checking for changes and will synchronize if needed.</p>
 
   </div>
@@ -121,8 +114,11 @@
   
   <h6 class="text-center copyright">Free software, licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>. The rust-keylock developers 2017-2020</h6>
   
-  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo  v0.72.0</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
   
+      
+      <h6><a href="" aria-label="RSS Feed"><i class="fas fa-rss" aria-hidden="true"></i></a></h6>
+    
   
 </footer>
 
@@ -133,16 +129,21 @@
 
 
 
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-84657729-2', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-84657729-2', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wikis on rust-keylock</title>
@@ -32,7 +32,7 @@ The following steps should be done once per device. For example, if you use rust
 Setup From the main menu, navigate to the Configuration and fill the fields.
 The Server URL, the Username and the Password should be filled in order to assume correct configuration.
 Self-signed certificates If your Nextcloud server is accessed via HTTPS using a self signed certificate, you need to:
- Check the self-signed certificate checkbox in the rust-keylock &amp;ldquo;Configuration&amp;rdquo; view.</description>
+  Check the self-signed certificate checkbox in the rust-keylock &amp;ldquo;Configuration&amp;rdquo; view.</description>
     </item>
     
   </channel>

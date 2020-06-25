@@ -10,20 +10,19 @@
 <meta name="description" content="rust-keylock Password Manager">
 <meta name="keywords" content="password,manager,rust,secure">
 
-<base href="https://rust-keylock.github.io/">
+<title>
+  rust-keylock - About 
+</title>
 
-<title>rust-keylock</title>
-
-<meta name="generator" content="Hugo 0.21-DEV" />
-
-
+<meta name="generator" content="Hugo 0.72.0" />
 
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 <link rel="stylesheet" href="https://rust-keylock.github.io/css/main.css">
+<link rel="stylesheet" href="https://rust-keylock.github.io/css/custom.css">
 
 
 
@@ -49,28 +48,19 @@
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
     
-
-<h2 id="general">General</h2>
-
-<p><strong><em>rust-keylock</em></strong> is a password manager and its goals are to be:</p>
-
+    <h2 id="general">General</h2>
+<p><em><strong>rust-keylock</strong></em> is a password manager and its goals are to be:</p>
 <ul>
 <li>Secure</li>
 <li>Simple to use</li>
 <li>Portable</li>
 <li>Extensible</li>
 </ul>
-
 <p>The core logic is written in <a href="https://www.rust-lang.org">Rust</a>, but the presentation/User interaction parts are in different languages.</p>
-
 <h2 id="warning">Warning</h2>
-
 <p>The project has not yet received any formal/official security reviews. Use it at your own risk.</p>
-
 <h2 id="features">Features</h2>
-
 <h3 id="security">Security</h3>
-
 <ul>
 <li>The data is locked with a user-defined master password, using <em>bcrypt</em> password hashing.</li>
 <li>Encryption using <em>AES</em> with <em>CTR</em> mode.</li>
@@ -78,41 +68,34 @@
 <li>During runtime, the passwords are kept encrypted in memory.</li>
 <li>During runtime, the encryption keys are stored in safe, non-swappable memory.</li>
 <li>Upon saving, the encryption keys change, even if the user master password remains the same. This results to different encrypted products, even if the data that is being encrypted is the same.</li>
+<li>Passphrases generation using <a href="https://theworld.com/~reinhold/diceware.html">Diceware</a>.</li>
+<li>Passwords health check against <a href="https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/">pwned passwords list</a>, leveraging the <a href="https://blog.cloudflare.com/validating-leaked-passwords-with-k-anonymity/">k-anonimity API</a>.</li>
 </ul>
-
 <h3 id="data-availability">Data Availability</h3>
-
 <ul>
 <li>Synchronization over Dropbox.</li>
 <li>Synchronization over Nextcloud or Owncloud.</li>
 <li>Export/import encrypted passwords to/from the filesystem.</li>
 <li>Automatic backups.</li>
 </ul>
-
 <h3 id="application-portability">Application Portability</h3>
-
 <ul>
 <li><a href="https://github.com/rust-keylock/rust-keylock-shell">Shell implementation</a>.</li>
 <li><a href="https://github.com/rust-keylock/rust-keylock-ui">JavaFX implementation</a>.
-
 <ul>
 <li>Using the <a href="https://github.com/astonbitecode/j4rs">j4rs crate</a>.</li>
-</ul></li>
-<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a>.
-
-<ul>
-<li>Using the <a href="https://github.com/astonbitecode/j4rs">j4rs crate</a>.</li>
-</ul></li>
 </ul>
-
+</li>
+<li><a href="https://github.com/rust-keylock/rust-keylock-android">Android implementation</a>.
+<ul>
+<li>Using the <a href="https://github.com/astonbitecode/j4rs">j4rs crate</a>.</li>
+</ul>
+</li>
+</ul>
 <p>See how to <a href="https://rust-keylock.github.io/download/rkl/">download and install</a>.</p>
-
-<h2 id="the-rust-keylock-library-and-the-editor-apps">The <em>rust-keylock</em> library and the <em>editor apps</em></h2>
-
+<h2 id="the-_rust-keylock_-library-and-the-_editor-apps_">The <em>rust-keylock</em> library and the <em>editor apps</em></h2>
 <p>The <a href="https://github.com/rust-keylock/rust-keylock-lib">rust-keylock library</a> handles the core application logic, whereas the interaction with the <em>rust-keylock</em> users is done via apps that have presentation responsibilities.</p>
-
 <p>The core library manages the whole lifecycle of the application, including encryption/decryption, synchronization, storing and retrieving encrypted data from the filesystem etc.</p>
-
 <p>The Editors are driven by the rust-keylock library and are responsible for interacting with the Users, transfering the Users&rsquo; input to the library.</p>
 
   </div>
@@ -144,8 +127,11 @@
   
   <h6 class="text-center copyright">Free software, licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>. The rust-keylock developers 2017-2020</h6>
   
-  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo  v0.72.0</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
   
+      
+      <h6><a href="" aria-label="RSS Feed"><i class="fas fa-rss" aria-hidden="true"></i></a></h6>
+    
   
 </footer>
 
@@ -156,16 +142,21 @@
 
 
 
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-84657729-2', 'auto');
-ga('send', 'pageview');
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-84657729-2', 'auto');
+	
+	ga('send', 'pageview');
+}
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
 
